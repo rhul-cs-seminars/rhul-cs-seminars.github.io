@@ -1,0 +1,8 @@
+domain: rhul-cs-seminars.github.io
+url: https://rhul-cs-seminars.github.io
+
+timezone: "UTC"
+markdown: kramdown
+
+collections:
+- conferences
