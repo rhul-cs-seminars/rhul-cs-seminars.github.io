@@ -1,3 +1,4 @@
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-baseurl: "" # the subpath of your site, e.g. /blog
-title: "RHUL CS Departmental Seminars" # the name of your site, e.g. ACME Corp.
+title: RHUL CS Departmental Seminars
+domain: rhul-cs-seminars.github.io       # if you want to force HTTPS, specify the domain without the http at the start, e.g. example.com
+url: https://rhul-cs-seminars.github.io  # the base hostname and protocol for your site, e.g. http://example.com
+
