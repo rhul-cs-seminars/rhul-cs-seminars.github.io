@@ -1,5 +1,8 @@
-source 'https://rubygems.org'
-gem "github-pages", "~> 228", group: :jekyll_plugins
-gem 'octopress-autoprefixer'
+# frozen_string_literal: true
 
-gem "webrick", "~> 1.7"
+source "https://rubygems.org"
+
+# gem "rails"
+
+gem "github-pages", "~> 228"
+gem "webrick", "~> 1.8"

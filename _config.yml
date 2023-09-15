@@ -1,8 +1,3 @@
-domain: rhul-cs-seminars.github.io
-url: https://rhul-cs-seminars.github.io
-
-timezone: "UTC"
-markdown: kramdown
-
-collections:
-- conferences
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "" # the subpath of your site, e.g. /blog
+title: "RHUL CS Departmental Seminars" # the name of your site, e.g. ACME Corp.
