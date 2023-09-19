@@ -1,10 +1,24 @@
 <div class="container p-1 m-2">
     <h4>Venue</h4>
-    <p>{{ include.venue }} <a href="{{ include.link }}">[MS Teams Link]</a></p>
+    <p>
+    {% if include.venue == "" or include.venue == nil %}
+        TBD
+    {% else %}
+        {{ include.venue }} <a href="{{ include.link }}">[MS Teams Link]</a>
+    {% endif %}
+    </p>
+
     {% if include.bio %}
         <h4>Short Bio</h4>
         <p>{{ include.bio }}</p>
     {% endif %}
+
     <h4>Abstract</h4>
-    <p>{{ include.abstract }}</p>
+    <p>
+    {% if include.abstract == "" or include.abstract == nil %}
+        TBD
+    {% else %}
+        {{ include.abstract }}
+    {% endif %}
+    </p>
 </div>

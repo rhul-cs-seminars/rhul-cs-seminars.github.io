@@ -16,7 +16,8 @@
     </thead>
     <tbody>
     {% assign talk_id = 0 %}
-    {% for seminar in site.seminars %}
+    {% assign sorted_seminars = site.seminars | sort: "time" %}
+    {% for seminar in sorted_seminars %}
         {% assign heading_id = "heading" | append: talk_id %}
         {% assign collapse_id = "collapse" | append: talk_id %}
         <tr scope="row">
@@ -24,14 +25,23 @@
             <td><a href="{{ seminar.speaker.webpage }}">{{ seminar.speaker.name }} </a> 
                     
             ({{ seminar.speaker.institution}})</td>
-            <td>{{ seminar.talk.title }}                     
-                <span class="badge bg-primary">{{ seminar.talk.topic }}</span>
+            <td>
+                {% if seminar.talk.title == "" or seminar.talk.title == nil %}
+                    TBD
+                {% else %} 
+                    {{ seminar.talk.title }}           
+                {% endif %}          
+                <span class="badge bg-danger">{{ seminar.talk.topic }}</span>
                 <span class="badge bg-primary">{{ seminar.talk.type }}</span>
             </td>
             <td>
-                <a href data-bs-toggle="collapse" data-bs-target="#{{collapse_id}}" aria-expanded="false" aria-controls="{{collapse_id}}">
-                    Show Details
-                </a>
+                {% if seminar.talk.venue or seminar.talk.abstract %}
+                    <a href data-bs-toggle="collapse" data-bs-target="#{{collapse_id}}" aria-expanded="false" aria-controls="{{collapse_id}}">
+                        Show Details
+                    </a>
+                {% else %}
+                    No Details Yet
+                {% endif %}
             </td>
                 <!-- <i class="bi bi-info-circle"></i></a></td> -->
         </tr>
