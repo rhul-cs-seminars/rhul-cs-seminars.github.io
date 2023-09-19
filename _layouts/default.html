@@ -1,21 +1,19 @@
 
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  {% include head.html %}
-</head>
+{% include head.html %}
 <body>
-  {% include nav.html %}
+  <!-- {% include nav.html %} -->
 
   <main>
     {{ content }}
   </main>
 
-  <!-- Include Bootstrap 5.2.3-->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+  <!-- Bootstrap 5.2.3 -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 
   <!-- mathjax config similar to math.stackexchange -->
-  <script type="text/x-mathjax-config">
+  <!-- <script type="text/x-mathjax-config">
     MathJax.Hub.Config({
     jax: ["input/TeX", "output/HTML-CSS"],
       tex2jax: {
@@ -28,7 +26,7 @@
     "HTML-CSS": { preferredFont: "TeX", availableFonts: ["STIX","TeX"] }
     });
   </script>
-  <script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML" type="text/javascript"></script>
+  <script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML" type="text/javascript"></script> -->
 
   <!-- Custom JS scripts -->
   <script src="/assets/js/main.js"></script>

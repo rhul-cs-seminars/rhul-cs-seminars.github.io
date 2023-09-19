@@ -1,0 +1,15 @@
+---
+topic: Complexity
+type: Technical
+title: The Complexity of k-Means Clustering when Little is Known 
+speaker: John Doe
+institution: Technical University of Vienna
+time: 30 Nov 2022, 15:00
+venue: Shilling 0-04
+link: https://teams.microsoft.com/l/meetup-join/19%3ameeting_NzhmMWVhNGUtZGM3NS00ZThkLTgwOTMtYTQ5OTBlZjhkZGVh%40thread.v2/0?context=%7b%22Tid%22%3a%222efd699a-1922-4e69-b601-108008d28a2e%22%2c%22Oid%22%3a%22a039aadc-3c03-47d9-9b54-085490a7ce53%22%7d
+
+bio: ~ 
+
+abstract: >
+    In the area of data analysis and arguably even in machine learning as a whole, few approaches have been as impactful as the classical k-means clustering. Here, we study the complexity of k-means clustering in settings where most of the data is not known. To obtain a more detailed understanding of the theoretic tractability of this clustering problem, we apply the parameterised complexity paradigm and obtain new algorithms for k-means clustering of incomplete data: one for the clustering of bounded-domain (i.e., integer) data, and two algorithms that target real-valued data. Our approach is based on exploiting structural properties of a graphical encoding of the missing data, and we show that tractability can be achieved using significantly less restrictive parameterisations than in the complementary case of few missing entries.
+---

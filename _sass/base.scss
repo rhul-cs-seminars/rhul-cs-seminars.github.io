@@ -6,15 +6,16 @@ body {
   font-family: Arial, system-ui;
 }
 
-main > div {
-  height: 10rem;
-  margin: 2rem;
-  border: darkgrey 1px solid;
-  border-radius: 8px;
-  overflow: hidden;
+.talk-details {
+  padding: 5px;
 }
 
 h1 {
-  text-align: center;
+  text-align: left;
   color: gray;
+}
+
+
+.collapsed-row td {
+padding: 0 !important;
 }

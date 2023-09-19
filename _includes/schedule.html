@@ -1,0 +1,56 @@
+<div class="card">
+    <div class="card-header">
+        <!-- <div class="container-md"> -->
+        {% include title.html %}
+        <!-- </div> -->
+    </div>
+    <div class="card-body">
+<table class="table table-sm">
+    <thead>
+        <tr>
+            <th scope="col">Time</th>
+            <th scope="col">Speaker</th>
+            <th scope="col">Title</th>
+            <th scope="col"></th>
+        </tr>
+    </thead>
+    <tbody>
+    {% assign talk_id = 0 %}
+    {% for seminar in site.seminars %}
+        {% assign heading_id = "heading" | append: talk_id %}
+        {% assign collapse_id = "collapse" | append: talk_id %}
+        <tr scope="row">
+            <td>{{ seminar.time }}</td>
+            <td><a href="{{ seminar.speaker.webpage }}">{{ seminar.speaker.name }} </a> 
+                    
+            ({{ seminar.speaker.institution}})</td>
+            <td>{{ seminar.talk.title }}                     
+                <span class="badge bg-primary">{{ seminar.talk.topic }}</span>
+                <span class="badge bg-primary">{{ seminar.talk.type }}</span>
+            </td>
+            <td>
+                <a href data-bs-toggle="collapse" data-bs-target="#{{collapse_id}}" aria-expanded="false" aria-controls="{{collapse_id}}">
+                    Show Details
+                </a>
+            </td>
+                <!-- <i class="bi bi-info-circle"></i></a></td> -->
+        </tr>
+        <tr class="collapsed-row bg-light bg-gradient">
+            <td colspan="4">
+                <div class="collapse" id="{{collapse_id}}" style="">
+                    {% capture talk_venue %}{{ seminar.venue }}{% endcapture %}
+                    {% capture talk_link %}{{ seminar.link }}{% endcapture %}
+                    {% if seminar.bio %}
+                        {% capture talk_bio %}{{ seminar.bio }}{% endcapture %}
+                    {% endif %}
+                    {% capture talk_abstract %}{{ seminar.abstract }}{% endcapture %}
+                    {% include talk_details.html venue=talk_venue link=talk_link bio=talk_bio abstract=talk_abstract%}
+                </div>
+            </td>
+        </tr>
+        {% assign talk_id = talk_id | plus: 1 %}
+    {% endfor %}
+</tbody>
+</table>
+</div>
+</div>
