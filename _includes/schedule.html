@@ -22,20 +22,20 @@
         {% assign collapse_id = "collapse" | append: talk_id %}
         <tr scope="row">
             <td>{{ seminar.time | date_to_string }}</td>
-            <td><a href="{{ seminar.speaker.webpage }}">{{ seminar.speaker.name }} </a> 
+            <td><a href="{{ seminar.webpage }}" target="_blank">{{ seminar.speaker }} </a> 
                     
-            ({{ seminar.speaker.institution}})</td>
+            ({{ seminar.institution}})</td>
             <td>
-                {% if seminar.talk.title == "" or seminar.talk.title == nil %}
+                {% if seminar.title == "" or seminar.title == nil %}
                     TBD
                 {% else %} 
-                    {{ seminar.talk.title }}           
+                    {{ seminar.title }}           
                 {% endif %}          
-                <span class="badge bg-danger">{{ seminar.talk.topic }}</span>
-                <span class="badge bg-primary">{{ seminar.talk.type }}</span>
+                <span class="badge bg-danger">{{ seminar.topic }}</span>
+                <span class="badge bg-primary">{{ seminar.type }}</span>
             </td>
             <td>
-                {% if seminar.talk.venue or seminar.talk.abstract %}
+                {% if seminar.venue or seminar.abstract %}
                     <a href data-bs-toggle="collapse" data-bs-target="#{{collapse_id}}" aria-expanded="false" aria-controls="{{collapse_id}}">
                         Show Details
                     </a>
