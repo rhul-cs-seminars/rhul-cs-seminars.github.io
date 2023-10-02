@@ -4,9 +4,9 @@ PRODID:-//RHUL CS Departmental Seminars//http://localhost:4000//EN
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
-UID:RHUL-CS-Seminar-2023-10-04
-DTSTART;TZID=Europe/London:20231004T150000
-DTEND;TZID=Europe/London:20231004T160000
+UID:RHUL-CS-Seminar-2023-10-11
+DTSTART;TZID=Europe/London:20231011T150000
+DTEND;TZID=Europe/London:20231011T160000
 ORGANIZER;CN="RHUL CS Departmental Seminars":MAILTO:matteo.sammartino@rhul.ac.uk
 SUMMARY:CS Seminar: Nicola Paoletti -- Causal Temporal Reasoning for Markov Decision Processes
 DESCRIPTION:We introduce PCFTL (Probabilistic CounterFactual Temporal Logic), a new probabilistic temporal logic for the verification of Markov Decision Processes (MDP). PCFTL is the first to include operators for causal reasoning, allowing us to express interventional and counterfactual queries. Given a path formula ϕ, an interventional property is concerned with the satisfaction probability of ϕ if we apply a particular change I to the MDP (e.g., switching to a different policy); a counterfactual allows us to compute, given an observed MDP path τ, what the outcome of ϕ would have been had we applied I in the past. For its ability to reason about what-if scenarios involving different configurations of the MDP, our approach represents a departure from existing probabilistic temporal logics that can only reason about a fixed system configuration. From a syntactic viewpoint, we introduce a generalized counterfactual operator that subsumes both interventional and counterfactual probabilities as well as the traditional probabilistic operator found in e.g., PCTL. From a semantics viewpoint, our logic is interpreted over a structural causal model translation of the MDP, which gives us a representation amenable to counterfactual reasoning. We evaluate PCFTL in the context of safe reinforcement learning using a benchmark of grid-world models.
