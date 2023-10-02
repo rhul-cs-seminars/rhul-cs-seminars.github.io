@@ -1,10 +1,15 @@
 <div class="container p-1 m-2">
     <h4>Venue</h4>
     <p>
-    {% if include.venue == "" or include.venue == nil %}
+    {% if include.venue == '' or include.venue == nil %}
         TBD
     {% else %}
-        {{ include.venue }} <a href="{{ include.link }}">[MS Teams Link]</a>
+        {{ include.venue }} 
+        {% if include.link == '' or include.link == nil %}
+            [No MS-Teams Link Available Yet]
+        {% else %}
+            <a href="{{ include.link }}">[MS Teams Link]</a>
+        {% endif %}
     {% endif %}
     </p>
 
@@ -15,7 +20,7 @@
 
     <h4>Abstract</h4>
     <p>
-    {% if include.abstract == "" or include.abstract == nil %}
+    {% if include.abstract == '' or include.abstract == nil %}
         TBD
     {% else %}
         {{ include.abstract }}

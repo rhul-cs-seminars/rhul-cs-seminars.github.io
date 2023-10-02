@@ -50,9 +50,14 @@
                 <div class="collapse" id="{{collapse_id}}" style="">
                     {% capture talk_venue %}{{ seminar.venue }}{% endcapture %}
                     {% capture talk_link %}{{ seminar.link }}{% endcapture %}
-                    {% if seminar.bio %}
-                        {% capture talk_bio %}{{ seminar.bio }}{% endcapture %}
-                    {% endif %}
+                    {% capture talk_bio %}{{ seminar.bio }}{% endcapture %}
+                    <!-- {% if seminar.bio %}
+                        {% capture talk_bio %}
+                            {{ seminar.bio }}
+                        {% endcapture %}
+                    {% else %}
+                        {% assign talk_bio = nil %}
+                    {% endif %} -->
                     {% capture talk_abstract %}{{ seminar.abstract }}{% endcapture %}
                     {% include talk_details.html venue=talk_venue link=talk_link bio=talk_bio abstract=talk_abstract%}
                 </div>
