@@ -1,14 +1,48 @@
 ---
 topic: Algorithms
 type: Technical
-title:
+title: Parallel Efficiency and Stability of Selective Population Protocols
 speaker: Leszek Gasieniec
 institution: University of Liverpool
 webpage: https://www.csc.liv.ac.uk/~leszek/
 # time: 25/10/2023, 15:00
 time: 2023-10-25
-venue:
+venue: Bedford 0-07
 link:
 bio: 
-abstract:
+abstract: >
+  The model of population protocols provides a universal platform to study distributed processes
+  driven by pairwise interactions of anonymous agents. Pairs of agents are drawn by the random
+  scheduler uniformly at random from a large population of size n. Each interacting pair is formed of
+  the initiator and the responder. On the conclusion of an interaction the states of the two agents
+  are modified according to the predefined transition function, i.e., the set of rules underpinning the
+  considered process. The state space S of agents is fixed and the size of the population is not known,
+  i.e., not hard-coded in the transition function. The sequential time of stabilisation of a population
+  protocol refers to the number of interactions required to reach one of the final configurations. More
+  recently, the focus is on the parallel time (or simply time) defined as the sequential time divided by
+  n, where a given protocol is efficient if it stabilises in parallel time O(poly log n). Finally, we say
+  that a population protocol is stable if it stabilises with the correct solution with probability 1.
+
+  Among several computational deficiencies of (also stable) population protocols are: depleting
+  fraction of meaningful interactions closing in on the final stabilisation (suppressing parallel efficiency),
+  computation power of constant-space population protocols limited to semi-linear predicates in
+  Presburger arithmetic (reflecting on the time-space trade offs), and indefinite computation (impacting
+  multi-stage protocols). With these deficiencies in mind, we propose a new selective variant of
+  population protocols by imposing an elementary structure on the state space, together with a
+  conditional choice of the responder during random interacting pair selection.
+
+  We first observe that selective protocols provide a natural mechanism for deterministic emptiness
+  test (also known as zero test). It is known that such test enables efficient simulation of O(log n)-
+  space Turing Machine with high probability. We first observe that such simulation in selective
+  protocols is stable. This means that selective protocols can be used to design efficient solutions to
+  problems in O(log n)-space, which are also stable. In particular, we provide fixed-state stable efficient
+  solutions to two central problems of leader election and majority computation, with confirmation.
+  This is a separation result as stable efficient majority computation requires Ω( log n) states in standard
+  population protocols, even if the leader is given. In addition, we study computation of the median
+  in a comparison model where the operational state space of agents is fixed and the transition function
+  decides on the order between (arbitrarily large) hidden keys associated with the interacting agents.
+  We show that computation of the median of n numbers requires Ω(n) parallel time and the problem
+  can be solved in O(n log n) parallel time in expectation and whp in standard population protocols.
+
+  This is joint work with Adam Gańczorz, Tomasz Jurdziński and Grzegorz Stachowiak, Wrocław University
 ---
