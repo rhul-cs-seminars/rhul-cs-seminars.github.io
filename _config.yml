@@ -1,6 +1,7 @@
 title: RHUL CS Departmental Seminars
 domain: rhul-cs-seminars.github.io       # if you want to force HTTPS, specify the domain without the http at the start, e.g. example.com
 url: https://rhul-cs-seminars.github.io  # the base hostname and protocol for your site, e.g. http://example.com
+email: matteo.sammartino@rhul.ac.uk 
 
 term: Autumn 23/24
 

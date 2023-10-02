@@ -1,0 +1,23 @@
+---
+layout: none
+---
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//{{site.title}}//{{site.url}}//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH{% for seminar in site.seminars %}
+BEGIN:VEVENT
+UID:RHUL-CS-Seminar-{{seminar.date}}
+DTSTART;TZID=Europe/London:{{ seminar.date | date: "%Y%m%dT150000" }}
+DTEND;TZID=Europe/London:{{ seminar.date | date: "%Y%m%dT160000" }}
+ORGANIZER;CN="{{site.title}}":MAILTO:{{site.email}}
+SUMMARY:CS Seminar: {{seminar.speaker}} -- {% if seminar.title %}{{seminar.title}}{% else %}TBD{% endif %}
+DESCRIPTION:{% if seminar.abstract %}{{seminar.abstract}}{% else %}No description available yet{% endif %}
+CLASS:PUBLIC
+LOCATION:{% if seminar.venue %}{{seminar.venue}}{% else %}TBD{% endif %}
+{% if seminar.link %}
+URL:{{seminar.link}}
+{% endif %}
+CATEGORIES:{{seminar.topic}}, {{seminar.type}}
+END:VEVENT{% endfor %}
+END:VCALENDAR

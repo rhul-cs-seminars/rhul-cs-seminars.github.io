@@ -16,12 +16,12 @@
     </thead>
     <tbody>
     {% assign talk_id = 0 %}
-    {% assign sorted_seminars = site.seminars | sort: "time" %}
+    {% assign sorted_seminars = site.seminars | sort: "date" %}
     {% for seminar in sorted_seminars %}
         {% assign heading_id = "heading" | append: talk_id %}
         {% assign collapse_id = "collapse" | append: talk_id %}
         <tr scope="row">
-            <td>{{ seminar.time | date_to_string }}</td>
+            <td>{{ seminar.date | date_to_string }}</td>
             <td><a href="{{ seminar.webpage }}" target="_blank">{{ seminar.speaker }} </a> 
                     
             ({{ seminar.institution}})</td>
@@ -68,4 +68,10 @@
 </tbody>
 </table>
 </div>
+<div class="card-footer text-muted">
+    <p>Click 
+        <a href="{{site.url}}/cal/rhul-cs-sem-calendar.ics">here</a>
+        to download the calendar in ICS format.
+    </p>
+  </div>
 </div>
