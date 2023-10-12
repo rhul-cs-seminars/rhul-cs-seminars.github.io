@@ -9,6 +9,7 @@ date: 2023-10-11
 # date: 04/10/2023, 15:00
 venue: Bedford 0-07
 link: https://teams.microsoft.com/l/meetup-join/19%3ameeting_OWRhMjhhOWMtMTVlNS00OTJmLThlMDUtZmQ0ZTNlYmM4Yzc3%40thread.v2/0?context=%7b%22Tid%22%3a%222efd699a-1922-4e69-b601-108008d28a2e%22%2c%22Oid%22%3a%22a039aadc-3c03-47d9-9b54-085490a7ce53%22%7d
+recording: https://rhul.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=c4528d44-66c2-4aa9-bbce-b09900a199a8
 bio:
     Nicola is a Senior Lecturer in the Department of Informatics at King's College London. His interests are in safety and security assurance of cyber-physical (aka autonomous) systems, or CPSs, with an emphasis on biomedical applications. His research aims to develop formal analysis methods (verification, control, and synthesis) to design CPSs that are provably correct. With CPSs increasingly incorporating machine-learning components for e.g., sensing, control and model predictions, his work also focuses on data-driven verification of CPSs, whereby formal analysis and principled learning methods come together to provide correctness guarantees and interpretability, while accounting for the uncertainty and (potential) brittleness introduced by the learning components.
 

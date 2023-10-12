@@ -26,4 +26,8 @@
         {{ include.abstract }}
     {% endif %}
     </p>
+
+    {% if include.recording != '' and include.recording != nil %}
+        <a class="btn btn-info" href="{{include.recording}}" role="button"><i class="bi bi-camera-video"></i> Seminar Recording</a>
+    {% endif %}
 </div>
