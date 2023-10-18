@@ -1,13 +1,14 @@
 ---
 topic: Algorithms
 type: Technical
-title: 
+title: Using Flow Augmentation via Boolean Black Box
 speaker: George Osipov
 institution: Linköping University
 webpage: https://liu.se/en/employee/geoos58
 date: 2023-11-15
-venue:
+venue: Bedford 0-07
 link:
 bio: 
-abstract:
+abstract: >
+  The recently introduced technique of flow augmentation has already led to the resolution of several open problems in parameterized complexity. In many cases, flow augmentation can be used through the black box of Boolean constraint satisfaction, a generalization of SAT that provides a common language to encode many prominent problems like Multiway Cut, Multicut, and Directed Feedback Arc Set. Arguably, this common language also provides some intuition for constructing algorithms using flow augmentation. I will introduce the Boolean black box approach and exemplify it with two results, one for undirected and one for directed graphs - namely, Edge Multicut and Directed Subset Feedback Arc Set. The algorithms also work for weighted versions of the problems "out of the box". I will also talk about the project of classifying constraint satisfaction problems parameterized by the number of unsatisfied constraints. No prior knowledge of constraint satisfaction is assumed.
 ---
