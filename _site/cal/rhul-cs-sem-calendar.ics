@@ -43,9 +43,11 @@ DESCRIPTION:The model of population protocols provides a universal platform to s
 Among several computational deficiencies of (also stable) population protocols are: depleting fraction of meaningful interactions closing in on the final stabilisation (suppressing parallel efficiency), computation power of constant-space population protocols limited to semi-linear predicates in Presburger arithmetic (reflecting on the time-space trade offs), and indefinite computation (impacting multi-stage protocols). With these deficiencies in mind, we propose a new selective variant of population protocols by imposing an elementary structure on the state space, together with a conditional choice of the responder during random interacting pair selection.
 We first observe that selective protocols provide a natural mechanism for deterministic emptiness test (also known as zero test). It is known that such test enables efficient simulation of O(log n)- space Turing Machine with high probability. We first observe that such simulation in selective protocols is stable. This means that selective protocols can be used to design efficient solutions to problems in O(log n)-space, which are also stable. In particular, we provide fixed-state stable efficient solutions to two central problems of leader election and majority computation, with confirmation. This is a separation result as stable efficient majority computation requires Ω( log n) states in standard population protocols, even if the leader is given. In addition, we study computation of the median in a comparison model where the operational state space of agents is fixed and the transition function decides on the order between (arbitrarily large) hidden keys associated with the interacting agents. We show that computation of the median of n numbers requires Ω(n) parallel time and the problem can be solved in O(n log n) parallel time in expectation and whp in standard population protocols.
 This is joint work with Adam Gańczorz, Tomasz Jurdziński and Grzegorz Stachowiak, Wrocław University
-\n\nMS Teams Link:
+\n\nMS Teams Link:https://teams.microsoft.com/l/meetup-join/19%3ameeting_ODZiOGQzMmYtYTlhYy00MWRiLTg2NzEtYjkxNTFjZmVmMzg0%40thread.v2/0?context=%7b%22Tid%22%3a%222efd699a-1922-4e69-b601-108008d28a2e%22%2c%22Oid%22%3a%22a039aadc-3c03-47d9-9b54-085490a7ce53%22%7d
 CLASS:PUBLIC
 LOCATION:Bedford 0-07
+
+URL:https://teams.microsoft.com/l/meetup-join/19%3ameeting_ODZiOGQzMmYtYTlhYy00MWRiLTg2NzEtYjkxNTFjZmVmMzg0%40thread.v2/0?context=%7b%22Tid%22%3a%222efd699a-1922-4e69-b601-108008d28a2e%22%2c%22Oid%22%3a%22a039aadc-3c03-47d9-9b54-085490a7ce53%22%7d
 
 CATEGORIES:Algorithms, Technical
 END:VEVENT
@@ -54,10 +56,13 @@ UID:RHUL-CS-Seminar-2023-11-08
 DTSTART;TZID=Europe/London:20231108T150000
 DTEND;TZID=Europe/London:20231108T160000
 ORGANIZER;CN="RHUL CS Departmental Seminars":MAILTO:matteo.sammartino@rhul.ac.uk
-SUMMARY:CS Seminar: Anand Subramoney -- TBD
-DESCRIPTION:No description available yet
+SUMMARY:CS Seminar: Anand Subramoney -- Emergent behaviour in large deep learning models
+DESCRIPTION:Recent years have seen remarkable progress in the capabilities of large deep learning models, especially in language processing. Large language models such as GPT-3 derive a lot of their utility from being zero or few-shot learners, which are instances of a phenomenon labelled in-context learning -- the ability to perform a diverse range of tasks simply based on demonstration examples provided as input context, without any gradient updates to the model parameters. This emergent capability is poorly understood and has intrigued the ML research community. In this talk, I will provide an overview of in-context learning and survey the current state of understanding regarding the emergence of these new abilities in large language models. Then, I will examine the extent to which in-context learning needs large-scale models and the contribution of model architectures versus training approaches. Finally, I will analyse and relate this phenomenon to meta-learning approaches with recurrent architectures that predate large language models.
+\n\nMS Teams Link:https://teams.microsoft.com/l/meetup-join/19%3ameeting_YWUwNGJiODYtODg3Zi00OTJhLWE2YmQtZDU2YWU2ODUzNjdh%40thread.v2/0?context=%7b%22Tid%22%3a%222efd699a-1922-4e69-b601-108008d28a2e%22%2c%22Oid%22%3a%22a039aadc-3c03-47d9-9b54-085490a7ce53%22%7d
 CLASS:PUBLIC
-LOCATION:TBD
+LOCATION:Bedford 0-07
+
+URL:https://teams.microsoft.com/l/meetup-join/19%3ameeting_YWUwNGJiODYtODg3Zi00OTJhLWE2YmQtZDU2YWU2ODUzNjdh%40thread.v2/0?context=%7b%22Tid%22%3a%222efd699a-1922-4e69-b601-108008d28a2e%22%2c%22Oid%22%3a%22a039aadc-3c03-47d9-9b54-085490a7ce53%22%7d
 
 CATEGORIES:Machine Learning, Technical
 END:VEVENT
@@ -66,10 +71,11 @@ UID:RHUL-CS-Seminar-2023-11-15
 DTSTART;TZID=Europe/London:20231115T150000
 DTEND;TZID=Europe/London:20231115T160000
 ORGANIZER;CN="RHUL CS Departmental Seminars":MAILTO:matteo.sammartino@rhul.ac.uk
-SUMMARY:CS Seminar: George Osipov -- TBD
-DESCRIPTION:No description available yet
+SUMMARY:CS Seminar: George Osipov -- Using Flow Augmentation via Boolean Black Box
+DESCRIPTION:The recently introduced technique of flow augmentation has already led to the resolution of several open problems in parameterized complexity. In many cases, flow augmentation can be used through the black box of Boolean constraint satisfaction, a generalization of SAT that provides a common language to encode many prominent problems like Multiway Cut, Multicut, and Directed Feedback Arc Set. Arguably, this common language also provides some intuition for constructing algorithms using flow augmentation. I will introduce the Boolean black box approach and exemplify it with two results, one for undirected and one for directed graphs - namely, Edge Multicut and Directed Subset Feedback Arc Set. The algorithms also work for weighted versions of the problems "out of the box". I will also talk about the project of classifying constraint satisfaction problems parameterized by the number of unsatisfied constraints. No prior knowledge of constraint satisfaction is assumed.
+\n\nMS Teams Link:
 CLASS:PUBLIC
-LOCATION:TBD
+LOCATION:Bedford 0-07
 
 CATEGORIES:Algorithms, Technical
 END:VEVENT
