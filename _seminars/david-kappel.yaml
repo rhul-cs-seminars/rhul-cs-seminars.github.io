@@ -1,14 +1,15 @@
 ---
 topic: Machine Learning
 type: Technical
-title:
+title: Biological principles for efficient machine learning
 speaker: David Kappel
 institution: Ruhr-Universität Bochum
 webpage: https://www.ini.rub.de/the_institute/people/david-kappel/
 # date: 29/11/2023, 15:00
 date: 2023-11-29
-venue:
+venue: Bedford 0-07
 link:
 bio: 
-abstract:
+abstract: >
+  Recent advances in machine learning (ML) have demonstrated impressive performance on complex tasks such as human-level image understanding and natural language processing. These ML models rely on artificial neural networks that, like biological brains, use billions of neurons and synapses to process complex stimuli. Unlike biological brains, however, these neural networks consume untold amounts of energy, with a single training session often exceeding the energy and carbon footprint of a car over its lifetime. If the current rate of growth continues, ML models could overtake the transportation sector in the global energy balance in 10-20 years, posing another major threat to mitigating climate collapse. In this talk, I will highlight the mechanisms that enable the amazing energy efficiency of biological brains. Based on these findings, I will present new approaches to significantly reduce the energy footprint using hybrid ML/bio-inspired models.
 ---
