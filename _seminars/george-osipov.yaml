@@ -7,7 +7,7 @@ institution: Linköping University
 webpage: https://liu.se/en/employee/geoos58
 date: 2023-11-15
 venue: Bedford 0-07
-link:
+link: https://teams.microsoft.com/l/meetup-join/19%3ameeting_NjBmNTdlNTMtZWQ3Ni00OGY1LTg3ODktZjBjMzU2M2QxOWU5%40thread.v2/0?context=%7b%22Tid%22%3a%222efd699a-1922-4e69-b601-108008d28a2e%22%2c%22Oid%22%3a%22a039aadc-3c03-47d9-9b54-085490a7ce53%22%7d
 bio: 
 abstract: >
   The recently introduced technique of flow augmentation has already led to the resolution of several open problems in parameterized complexity. In many cases, flow augmentation can be used through the black box of Boolean constraint satisfaction, a generalization of SAT that provides a common language to encode many prominent problems like Multiway Cut, Multicut, and Directed Feedback Arc Set. Arguably, this common language also provides some intuition for constructing algorithms using flow augmentation. I will introduce the Boolean black box approach and exemplify it with two results, one for undirected and one for directed graphs - namely, Edge Multicut and Directed Subset Feedback Arc Set. The algorithms also work for weighted versions of the problems "out of the box". I will also talk about the project of classifying constraint satisfaction problems parameterized by the number of unsatisfied constraints. No prior knowledge of constraint satisfaction is assumed.
