@@ -4,99 +4,69 @@ PRODID:-//RHUL CS Departmental Seminars//http://localhost:4000//EN
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
-UID:RHUL-CS-Seminar-20231011T15:00
-DTSTART;TZID=Europe/London:20231011T15:00
-
-DTEND;TZID=Europe/London:20231011T16:00
+UID:RHUL-CS-Seminar-20231011
+DTSTART;TZID=Europe/London:20231011T150000
+DTEND;TZID=Europe/London:20231011T160000
 ORGANIZER;CN="RHUL CS Departmental Seminars":MAILTO:matteo.sammartino@rhul.ac.uk
 SUMMARY:CS Seminar: Nicola Paoletti -- Causal Temporal Reasoning for Markov Decision Processes
 DESCRIPTION:We introduce PCFTL (Probabilistic CounterFactual Temporal Logic), a new probabilistic temporal logic for the verification of Markov Decision Processes (MDP). PCFTL is the first to include operators for causal reasoning, allowing us to express interventional and counterfactual queries. Given a path formula ϕ, an interventional property is concerned with the satisfaction probability of ϕ if we apply a particular change I to the MDP (e.g., switching to a different policy); a counterfactual allows us to compute, given an observed MDP path τ, what the outcome of ϕ would have been had we applied I in the past. For its ability to reason about what-if scenarios involving different configurations of the MDP, our approach represents a departure from existing probabilistic temporal logics that can only reason about a fixed system configuration. From a syntactic viewpoint, we introduce a generalized counterfactual operator that subsumes both interventional and counterfactual probabilities as well as the traditional probabilistic operator found in e.g., PCTL. From a semantics viewpoint, our logic is interpreted over a structural causal model translation of the MDP, which gives us a representation amenable to counterfactual reasoning. We evaluate PCFTL in the context of safe reinforcement learning using a benchmark of grid-world models.\n\nMS Teams Link:https://teams.microsoft.com/l/meetup-join/19%3ameeting_OWRhMjhhOWMtMTVlNS00OTJmLThlMDUtZmQ0ZTNlYmM4Yzc3%40thread.v2/0?context=%7b%22Tid%22%3a%222efd699a-1922-4e69-b601-108008d28a2e%22%2c%22Oid%22%3a%22a039aadc-3c03-47d9-9b54-085490a7ce53%22%7d
 CLASS:PUBLIC
 LOCATION:Bedford 0-07
-
-URL:https://teams.microsoft.com/l/meetup-join/19%3ameeting_OWRhMjhhOWMtMTVlNS00OTJmLThlMDUtZmQ0ZTNlYmM4Yzc3%40thread.v2/0?context=%7b%22Tid%22%3a%222efd699a-1922-4e69-b601-108008d28a2e%22%2c%22Oid%22%3a%22a039aadc-3c03-47d9-9b54-085490a7ce53%22%7d
-
 CATEGORIES:Formal Methods, Technical
 END:VEVENT
 BEGIN:VEVENT
-UID:RHUL-CS-Seminar-20231018T15:00
-DTSTART;TZID=Europe/London:20231018T15:00
-
-DTEND;TZID=Europe/London:20231018T16:00
+UID:RHUL-CS-Seminar-20231018
+DTSTART;TZID=Europe/London:20231018T150000
+DTEND;TZID=Europe/London:20231018T160000
 ORGANIZER;CN="RHUL CS Departmental Seminars":MAILTO:matteo.sammartino@rhul.ac.uk
 SUMMARY:CS Seminar: Dusan Knop -- High-Multiplicity Fair Allocation
-DESCRIPTION:We study the (parameterized) computational complexity of problems in the context of fair allocations of indivisible goods. More specifically, we show fixed-parameter tractability results for a broad set of problems concerned with envy-free, Pareto-efficient allocations of items (with agent-specific utility functions) to agents. In principle, this implies efficient exact algorithms for these in general computationally intractable problems whenever we face instances with few agents and low maximum (absolute) utility values. This holds true also in high-multiplicity settings where we may have high numbers of identical items. On the technical side, our approach provides algorithmic meta-theorems covering a rich set of fair allocation problems in the additive preferences model. To achieve this, our main technical contribution is to make an elaborate use of tools from integer linear programming. More specifically, we exploit results originally going back to a famous theorem of Lenstra [Math. Oper. Res. 1983] concerning (the fixed-parameter tractability of) Integer Linear Programs (ILPs) with bounded dimension (that is, the dimension shall be considered as a (small) parameter) and the more recent framework of (combinatorial) N-fold ILPs. We reveal and exploit a fruitful interaction between these two cornerstones in the theory of integer linear programming, which may be of independent interest in applications going beyond fair allocations. We will also discuss some improvement using the Parametric ILP.
-Joint work with Robert Bredereck, Andrzej Kaczmarczyk, and Rolf Niedermeier\n\nMS Teams Link:https://teams.microsoft.com/l/meetup-join/19%3ameeting_ZmFhYjI3NmYtOTVlYS00YzZhLTg0MGEtZTQwNWJkNjhlNjky%40thread.v2/0?context=%7b%22Tid%22%3a%222efd699a-1922-4e69-b601-108008d28a2e%22%2c%22Oid%22%3a%22a039aadc-3c03-47d9-9b54-085490a7ce53%22%7d
+DESCRIPTION:We study the (parameterized) computational complexity of problems in the context of fair allocations of indivisible goods. More specifically, we show fixed-parameter tractability results for a broad set of problems concerned with envy-free, Pareto-efficient allocations of items (with agent-specific utility functions) to agents. In principle, this implies efficient exact algorithms for these in general computationally intractable problems whenever we face instances with few agents and low maximum (absolute) utility values. This holds true also in high-multiplicity settings where we may have high numbers of identical items. On the technical side, our approach provides algorithmic meta-theorems covering a rich set of fair allocation problems in the additive preferences model. To achieve this, our main technical contribution is to make an elaborate use of tools from integer linear programming. More specifically, we exploit results originally going back to a famous theorem of Lenstra [Math. Oper. Res. 1983] concerning (the fixed-parameter tractability of) Integer Linear Programs (ILPs) with bounded dimension (that is, the dimension shall be considered as a (small) parameter) and the more recent framework of (combinatorial) N-fold ILPs. We reveal and exploit a fruitful interaction between these two cornerstones in the theory of integer linear programming, which may be of independent interest in applications going beyond fair allocations. We will also discuss some improvement using the Parametric ILP.Joint work with Robert Bredereck, Andrzej Kaczmarczyk, and Rolf Niedermeier\n\nMS Teams Link:https://teams.microsoft.com/l/meetup-join/19%3ameeting_ZmFhYjI3NmYtOTVlYS00YzZhLTg0MGEtZTQwNWJkNjhlNjky%40thread.v2/0?context=%7b%22Tid%22%3a%222efd699a-1922-4e69-b601-108008d28a2e%22%2c%22Oid%22%3a%22a039aadc-3c03-47d9-9b54-085490a7ce53%22%7d
 CLASS:PUBLIC
 LOCATION:Bedford 0-07
-
-URL:https://teams.microsoft.com/l/meetup-join/19%3ameeting_ZmFhYjI3NmYtOTVlYS00YzZhLTg0MGEtZTQwNWJkNjhlNjky%40thread.v2/0?context=%7b%22Tid%22%3a%222efd699a-1922-4e69-b601-108008d28a2e%22%2c%22Oid%22%3a%22a039aadc-3c03-47d9-9b54-085490a7ce53%22%7d
-
 CATEGORIES:Algorithms, Technical
 END:VEVENT
 BEGIN:VEVENT
-UID:RHUL-CS-Seminar-20231025T15:00
-DTSTART;TZID=Europe/London:20231025T15:00
-
-DTEND;TZID=Europe/London:20231025T16:00
+UID:RHUL-CS-Seminar-20231025
+DTSTART;TZID=Europe/London:20231025T150000
+DTEND;TZID=Europe/London:20231025T160000
 ORGANIZER;CN="RHUL CS Departmental Seminars":MAILTO:matteo.sammartino@rhul.ac.uk
 SUMMARY:CS Seminar: Leszek Gasieniec -- Parallel Efficiency and Stability of Selective Population Protocols
-DESCRIPTION:The model of population protocols provides a universal platform to study distributed processes driven by pairwise interactions of anonymous agents. Pairs of agents are drawn by the random scheduler uniformly at random from a large population of size n. Each interacting pair is formed of the initiator and the responder. On the conclusion of an interaction the states of the two agents are modified according to the predefined transition function, i.e., the set of rules underpinning the considered process. The state space S of agents is fixed and the size of the population is not known, i.e., not hard-coded in the transition function. The sequential time of stabilisation of a population protocol refers to the number of interactions required to reach one of the final configurations. More recently, the focus is on the parallel time (or simply time) defined as the sequential time divided by n, where a given protocol is efficient if it stabilises in parallel time O(poly log n). Finally, we say that a population protocol is stable if it stabilises with the correct solution with probability 1.
-Among several computational deficiencies of (also stable) population protocols are: depleting fraction of meaningful interactions closing in on the final stabilisation (suppressing parallel efficiency), computation power of constant-space population protocols limited to semi-linear predicates in Presburger arithmetic (reflecting on the time-space trade offs), and indefinite computation (impacting multi-stage protocols). With these deficiencies in mind, we propose a new selective variant of population protocols by imposing an elementary structure on the state space, together with a conditional choice of the responder during random interacting pair selection.
-We first observe that selective protocols provide a natural mechanism for deterministic emptiness test (also known as zero test). It is known that such test enables efficient simulation of O(log n)- space Turing Machine with high probability. We first observe that such simulation in selective protocols is stable. This means that selective protocols can be used to design efficient solutions to problems in O(log n)-space, which are also stable. In particular, we provide fixed-state stable efficient solutions to two central problems of leader election and majority computation, with confirmation. This is a separation result as stable efficient majority computation requires Ω( log n) states in standard population protocols, even if the leader is given. In addition, we study computation of the median in a comparison model where the operational state space of agents is fixed and the transition function decides on the order between (arbitrarily large) hidden keys associated with the interacting agents. We show that computation of the median of n numbers requires Ω(n) parallel time and the problem can be solved in O(n log n) parallel time in expectation and whp in standard population protocols.
-This is joint work with Adam Gańczorz, Tomasz Jurdziński and Grzegorz Stachowiak, Wrocław University
-\n\nMS Teams Link:https://teams.microsoft.com/l/meetup-join/19%3ameeting_ODZiOGQzMmYtYTlhYy00MWRiLTg2NzEtYjkxNTFjZmVmMzg0%40thread.v2/0?context=%7b%22Tid%22%3a%222efd699a-1922-4e69-b601-108008d28a2e%22%2c%22Oid%22%3a%22a039aadc-3c03-47d9-9b54-085490a7ce53%22%7d
+DESCRIPTION:The model of population protocols provides a universal platform to study distributed processes driven by pairwise interactions of anonymous agents. Pairs of agents are drawn by the random scheduler uniformly at random from a large population of size n. Each interacting pair is formed of the initiator and the responder. On the conclusion of an interaction the states of the two agents are modified according to the predefined transition function, i.e., the set of rules underpinning the considered process. The state space S of agents is fixed and the size of the population is not known, i.e., not hard-coded in the transition function. The sequential time of stabilisation of a population protocol refers to the number of interactions required to reach one of the final configurations. More recently, the focus is on the parallel time (or simply time) defined as the sequential time divided by n, where a given protocol is efficient if it stabilises in parallel time O(poly log n). Finally, we say that a population protocol is stable if it stabilises with the correct solution with probability 1.Among several computational deficiencies of (also stable) population protocols are: depleting fraction of meaningful interactions closing in on the final stabilisation (suppressing parallel efficiency), computation power of constant-space population protocols limited to semi-linear predicates in Presburger arithmetic (reflecting on the time-space trade offs), and indefinite computation (impacting multi-stage protocols). With these deficiencies in mind, we propose a new selective variant of population protocols by imposing an elementary structure on the state space, together with a conditional choice of the responder during random interacting pair selection.We first observe that selective protocols provide a natural mechanism for deterministic emptiness test (also known as zero test). It is known that such test enables efficient simulation of O(log n)- space Turing Machine with high probability. We first observe that such simulation in selective protocols is stable. This means that selective protocols can be used to design efficient solutions to problems in O(log n)-space, which are also stable. In particular, we provide fixed-state stable efficient solutions to two central problems of leader election and majority computation, with confirmation. This is a separation result as stable efficient majority computation requires Ω( log n) states in standard population protocols, even if the leader is given. In addition, we study computation of the median in a comparison model where the operational state space of agents is fixed and the transition function decides on the order between (arbitrarily large) hidden keys associated with the interacting agents. We show that computation of the median of n numbers requires Ω(n) parallel time and the problem can be solved in O(n log n) parallel time in expectation and whp in standard population protocols.This is joint work with Adam Gańczorz, Tomasz Jurdziński and Grzegorz Stachowiak, Wrocław University\n\nMS Teams Link:https://teams.microsoft.com/l/meetup-join/19%3ameeting_ODZiOGQzMmYtYTlhYy00MWRiLTg2NzEtYjkxNTFjZmVmMzg0%40thread.v2/0?context=%7b%22Tid%22%3a%222efd699a-1922-4e69-b601-108008d28a2e%22%2c%22Oid%22%3a%22a039aadc-3c03-47d9-9b54-085490a7ce53%22%7d
 CLASS:PUBLIC
 LOCATION:Bedford 0-07
-
-URL:https://teams.microsoft.com/l/meetup-join/19%3ameeting_ODZiOGQzMmYtYTlhYy00MWRiLTg2NzEtYjkxNTFjZmVmMzg0%40thread.v2/0?context=%7b%22Tid%22%3a%222efd699a-1922-4e69-b601-108008d28a2e%22%2c%22Oid%22%3a%22a039aadc-3c03-47d9-9b54-085490a7ce53%22%7d
-
 CATEGORIES:Algorithms, Technical
 END:VEVENT
 BEGIN:VEVENT
-UID:RHUL-CS-Seminar-20231108T15:00
-DTSTART;TZID=Europe/London:20231108T15:00
-
-DTEND;TZID=Europe/London:20231108T16:00
+UID:RHUL-CS-Seminar-20231108
+DTSTART;TZID=Europe/London:20231108T150000
+DTEND;TZID=Europe/London:20231108T160000
 ORGANIZER;CN="RHUL CS Departmental Seminars":MAILTO:matteo.sammartino@rhul.ac.uk
 SUMMARY:CS Seminar: Anand Subramoney -- Emergent behaviour in large deep learning models
-DESCRIPTION:Recent years have seen remarkable progress in the capabilities of large deep learning models, especially in language processing. Large language models such as GPT-3 derive a lot of their utility from being zero or few-shot learners, which are instances of a phenomenon labelled in-context learning -- the ability to perform a diverse range of tasks simply based on demonstration examples provided as input context, without any gradient updates to the model parameters. This emergent capability is poorly understood and has intrigued the ML research community. In this talk, I will provide an overview of in-context learning and survey the current state of understanding regarding the emergence of these new abilities in large language models. Then, I will examine the extent to which in-context learning needs large-scale models and the contribution of model architectures versus training approaches. Finally, I will analyse and relate this phenomenon to meta-learning approaches with recurrent architectures that predate large language models.
-\n\nMS Teams Link:https://teams.microsoft.com/l/meetup-join/19%3ameeting_YWUwNGJiODYtODg3Zi00OTJhLWE2YmQtZDU2YWU2ODUzNjdh%40thread.v2/0?context=%7b%22Tid%22%3a%222efd699a-1922-4e69-b601-108008d28a2e%22%2c%22Oid%22%3a%22a039aadc-3c03-47d9-9b54-085490a7ce53%22%7d
+DESCRIPTION:Recent years have seen remarkable progress in the capabilities of large deep learning models, especially in language processing. Large language models such as GPT-3 derive a lot of their utility from being zero or few-shot learners, which are instances of a phenomenon labelled in-context learning -- the ability to perform a diverse range of tasks simply based on demonstration examples provided as input context, without any gradient updates to the model parameters. This emergent capability is poorly understood and has intrigued the ML research community. In this talk, I will provide an overview of in-context learning and survey the current state of understanding regarding the emergence of these new abilities in large language models. Then, I will examine the extent to which in-context learning needs large-scale models and the contribution of model architectures versus training approaches. Finally, I will analyse and relate this phenomenon to meta-learning approaches with recurrent architectures that predate large language models.\n\nMS Teams Link:https://teams.microsoft.com/l/meetup-join/19%3ameeting_YWUwNGJiODYtODg3Zi00OTJhLWE2YmQtZDU2YWU2ODUzNjdh%40thread.v2/0?context=%7b%22Tid%22%3a%222efd699a-1922-4e69-b601-108008d28a2e%22%2c%22Oid%22%3a%22a039aadc-3c03-47d9-9b54-085490a7ce53%22%7d
 CLASS:PUBLIC
 LOCATION:Bedford 0-07
-
-URL:https://teams.microsoft.com/l/meetup-join/19%3ameeting_YWUwNGJiODYtODg3Zi00OTJhLWE2YmQtZDU2YWU2ODUzNjdh%40thread.v2/0?context=%7b%22Tid%22%3a%222efd699a-1922-4e69-b601-108008d28a2e%22%2c%22Oid%22%3a%22a039aadc-3c03-47d9-9b54-085490a7ce53%22%7d
-
 CATEGORIES:Machine Learning, Technical
 END:VEVENT
 BEGIN:VEVENT
-UID:RHUL-CS-Seminar-20231115T16:00
-DTSTART;TZID=Europe/London:20231115T16:00
-
-DTEND;TZID=Europe/London:20231115T17:00
+UID:RHUL-CS-Seminar-20231115
+DTSTART;TZID=Europe/London:20231115T160000
+DTEND;TZID=Europe/London:20231115T170000
 ORGANIZER;CN="RHUL CS Departmental Seminars":MAILTO:matteo.sammartino@rhul.ac.uk
 SUMMARY:CS Seminar: George Osipov -- Using Flow Augmentation via Boolean Black Box
-DESCRIPTION:The recently introduced technique of flow augmentation has already led to the resolution of several open problems in parameterized complexity. In many cases, flow augmentation can be used through the black box of Boolean constraint satisfaction, a generalization of SAT that provides a common language to encode many prominent problems like Multiway Cut, Multicut, and Directed Feedback Arc Set. Arguably, this common language also provides some intuition for constructing algorithms using flow augmentation. I will introduce the Boolean black box approach and exemplify it with two results, one for undirected and one for directed graphs - namely, Edge Multicut and Directed Subset Feedback Arc Set. The algorithms also work for weighted versions of the problems "out of the box". I will also talk about the project of classifying constraint satisfaction problems parameterized by the number of unsatisfied constraints. No prior knowledge of constraint satisfaction is assumed.
-\n\nMS Teams Link:https://teams.microsoft.com/l/meetup-join/19%3ameeting_NjBmNTdlNTMtZWQ3Ni00OGY1LTg3ODktZjBjMzU2M2QxOWU5%40thread.v2/0?context=%7b%22Tid%22%3a%222efd699a-1922-4e69-b601-108008d28a2e%22%2c%22Oid%22%3a%22a039aadc-3c03-47d9-9b54-085490a7ce53%22%7d
+DESCRIPTION:The recently introduced technique of flow augmentation has already led to the resolution of several open problems in parameterized complexity. In many cases, flow augmentation can be used through the black box of Boolean constraint satisfaction, a generalization of SAT that provides a common language to encode many prominent problems like Multiway Cut, Multicut, and Directed Feedback Arc Set. Arguably, this common language also provides some intuition for constructing algorithms using flow augmentation. I will introduce the Boolean black box approach and exemplify it with two results, one for undirected and one for directed graphs - namely, Edge Multicut and Directed Subset Feedback Arc Set. The algorithms also work for weighted versions of the problems "out of the box". I will also talk about the project of classifying constraint satisfaction problems parameterized by the number of unsatisfied constraints. No prior knowledge of constraint satisfaction is assumed.\n\nMS Teams Link:https://teams.microsoft.com/l/meetup-join/19%3ameeting_NjBmNTdlNTMtZWQ3Ni00OGY1LTg3ODktZjBjMzU2M2QxOWU5%40thread.v2/0?context=%7b%22Tid%22%3a%222efd699a-1922-4e69-b601-108008d28a2e%22%2c%22Oid%22%3a%22a039aadc-3c03-47d9-9b54-085490a7ce53%22%7d
 CLASS:PUBLIC
 LOCATION:Bedford 0-07
-
-URL:https://teams.microsoft.com/l/meetup-join/19%3ameeting_NjBmNTdlNTMtZWQ3Ni00OGY1LTg3ODktZjBjMzU2M2QxOWU5%40thread.v2/0?context=%7b%22Tid%22%3a%222efd699a-1922-4e69-b601-108008d28a2e%22%2c%22Oid%22%3a%22a039aadc-3c03-47d9-9b54-085490a7ce53%22%7d
-
 CATEGORIES:Algorithms, Technical
 END:VEVENT
 BEGIN:VEVENT
-UID:RHUL-CS-Seminar-20231129T15:00
-DTSTART;TZID=Europe/London:20231129T15:00
-
-DTEND;TZID=Europe/London:20231129T16:00
+UID:RHUL-CS-Seminar-20231129
+DTSTART;TZID=Europe/London:20231129T150000
+DTEND;TZID=Europe/London:20231129T160000
 ORGANIZER;CN="RHUL CS Departmental Seminars":MAILTO:matteo.sammartino@rhul.ac.uk
 SUMMARY:CS Seminar: David Kappel -- Biological principles for efficient machine learning
-DESCRIPTION:Recent advances in machine learning (ML) have demonstrated impressive performance on complex tasks such as human-level image understanding and natural language processing. These ML models rely on artificial neural networks that, like biological brains, use billions of neurons and synapses to process complex stimuli. Unlike biological brains, however, these neural networks consume untold amounts of energy, with a single training session often exceeding the energy and carbon footprint of a car over its lifetime. If the current rate of growth continues, ML models could overtake the transportation sector in the global energy balance in 10-20 years, posing another major threat to mitigating climate collapse. In this talk, I will highlight the mechanisms that enable the amazing energy efficiency of biological brains. Based on these findings, I will present new approaches to significantly reduce the energy footprint using hybrid ML/bio-inspired models.
-\n\nMS Teams Link:
+DESCRIPTION:Recent advances in machine learning (ML) have demonstrated impressive performance on complex tasks such as human-level image understanding and natural language processing. These ML models rely on artificial neural networks that, like biological brains, use billions of neurons and synapses to process complex stimuli. Unlike biological brains, however, these neural networks consume untold amounts of energy, with a single training session often exceeding the energy and carbon footprint of a car over its lifetime. If the current rate of growth continues, ML models could overtake the transportation sector in the global energy balance in 10-20 years, posing another major threat to mitigating climate collapse. In this talk, I will highlight the mechanisms that enable the amazing energy efficiency of biological brains. Based on these findings, I will present new approaches to significantly reduce the energy footprint using hybrid ML/bio-inspired models.\n\nMS Teams Link:
 CLASS:PUBLIC
 LOCATION:Bedford 0-07
-
 CATEGORIES:Machine Learning, Technical
 END:VEVENT
 END:VCALENDAR
