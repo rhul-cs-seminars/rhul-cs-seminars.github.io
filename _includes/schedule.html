@@ -21,7 +21,7 @@
         {% assign heading_id = "heading" | append: talk_id %}
         {% assign collapse_id = "collapse" | append: talk_id %}
         <tr scope="row">
-            <td>{{ seminar.date | date_to_string }}</td>
+            <td>{{ seminar.date | date: "%d %b %Y, %H:%M" }}</td>
             <td><a href="{{ seminar.webpage }}" target="_blank">{{ seminar.speaker }} </a> 
                     
             ({{ seminar.institution}})</td>

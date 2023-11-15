@@ -7,9 +7,10 @@ PRODID:-//{{site.title}}//{{site.url}}//EN
 CALSCALE:GREGORIAN
 METHOD:PUBLISH{% for seminar in site.seminars %}
 BEGIN:VEVENT
-UID:RHUL-CS-Seminar-{{seminar.date}}
-DTSTART;TZID=Europe/London:{{ seminar.date | date: "%Y%m%dT150000" }}
-DTEND;TZID=Europe/London:{{ seminar.date | date: "%Y%m%dT160000" }}
+UID:RHUL-CS-Seminar-{{seminar.date | date: "%Y%m%dT%H:%M" }}
+DTSTART;TZID=Europe/London:{{ seminar.date | date: "%Y%m%dT%H:%M" }}
+{% assign seconds = 3600 %}
+DTEND;TZID=Europe/London:{{ seminar.date | date: "%s" | plus: seconds | date: "%Y%m%dT%H:%M" }}
 ORGANIZER;CN="{{site.title}}":MAILTO:{{site.email}}
 SUMMARY:CS Seminar: {{seminar.speaker}} -- {% if seminar.title %}{{seminar.title}}{% else %}TBD{% endif %}
 DESCRIPTION:{% if seminar.abstract %}{{seminar.abstract}}\n\nMS Teams Link:{{seminar.link}}{% else %}No description available yet{% endif %}
