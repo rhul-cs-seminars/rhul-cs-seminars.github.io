@@ -43,7 +43,6 @@
                     No Details Yet
                 {% endif %}
             </td>
-                <!-- <i class="bi bi-info-circle"></i></a></td> -->
         </tr>
         <tr class="collapsed-row bg-light bg-gradient">
             <td colspan="4">
@@ -51,13 +50,6 @@
                     {% capture talk_venue %}{{seminar.venue}}{% endcapture %}
                     {% capture talk_link %}{{seminar.link}}{% endcapture %}
                     {% capture talk_bio %}{{seminar.bio}}{% endcapture %}
-                    <!-- {% if seminar.bio %}
-                        {% capture talk_bio %}
-                            {{ seminar.bio }}
-                        {% endcapture %}
-                    {% else %}
-                        {% assign talk_bio = nil %}
-                    {% endif %} -->
                     {% capture talk_abstract %}{{seminar.abstract}}{% endcapture %}
                     {% capture talk_recording %}{{seminar.recording}}{% endcapture %}
                     {% include talk_details.html venue=talk_venue link=talk_link bio=talk_bio abstract=talk_abstract recording=talk_recording%}

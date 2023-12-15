@@ -64,9 +64,20 @@ DTSTART;TZID=Europe/London:20231129T150000
 DTEND;TZID=Europe/London:20231129T160000
 ORGANIZER;CN="RHUL CS Departmental Seminars":MAILTO:matteo.sammartino@rhul.ac.uk
 SUMMARY:CS Seminar: David Kappel -- Biological principles for efficient machine learning
-DESCRIPTION:Recent advances in machine learning (ML) have demonstrated impressive performance on complex tasks such as human-level image understanding and natural language processing. These ML models rely on artificial neural networks that, like biological brains, use billions of neurons and synapses to process complex stimuli. Unlike biological brains, however, these neural networks consume untold amounts of energy, with a single training session often exceeding the energy and carbon footprint of a car over its lifetime. If the current rate of growth continues, ML models could overtake the transportation sector in the global energy balance in 10-20 years, posing another major threat to mitigating climate collapse. In this talk, I will highlight the mechanisms that enable the amazing energy efficiency of biological brains. Based on these findings, I will present new approaches to significantly reduce the energy footprint using hybrid ML/bio-inspired models.\n\nMS Teams Link:
+DESCRIPTION:Recent advances in machine learning (ML) have demonstrated impressive performance on complex tasks such as human-level image understanding and natural language processing. These ML models rely on artificial neural networks that, like biological brains, use billions of neurons and synapses to process complex stimuli. Unlike biological brains, however, these neural networks consume untold amounts of energy, with a single training session often exceeding the energy and carbon footprint of a car over its lifetime. If the current rate of growth continues, ML models could overtake the transportation sector in the global energy balance in 10-20 years, posing another major threat to mitigating climate collapse. In this talk, I will highlight the mechanisms that enable the amazing energy efficiency of biological brains. Based on these findings, I will present new approaches to significantly reduce the energy footprint using hybrid ML/bio-inspired models.\n\nMS Teams Link:https://teams.microsoft.com/l/meetup-join/19%3ameeting_Y2UzNTgzOGQtYWM2ZS00MWMzLWEyYjQtZjFjZWJiNGEyYTQx%40thread.v2/0?context=%7b%22Tid%22%3a%222efd699a-1922-4e69-b601-108008d28a2e%22%2c%22Oid%22%3a%22a039aadc-3c03-47d9-9b54-085490a7ce53%22%7d
 CLASS:PUBLIC
 LOCATION:Bedford 0-07
 CATEGORIES:Machine Learning, Technical
+END:VEVENT
+BEGIN:VEVENT
+UID:RHUL-CS-Seminar-20240110
+DTSTART;TZID=Europe/London:20240110T150000
+DTEND;TZID=Europe/London:20240110T160000
+ORGANIZER;CN="RHUL CS Departmental Seminars":MAILTO:matteo.sammartino@rhul.ac.uk
+SUMMARY:CS Seminar: Sudipta Chattopadhyay -- Towards Automated Over-the-Air Security Testing of Wireless Systems
+DESCRIPTION:In this talk, I will provide an overview of our past few years' work on Wireless Fuzzing. In particular, I will outline some key challenges that we faced for automatically testing COTS wireless devices over-the-air and how challenges were overcome to develop our security testing technology. I will discuss how our technology had evolved from a generational approach to what we call now man-in-the-middle fuzzing and how such a fuzzing method found more than 70+ security flaws in wireless devices implementing diverse range of protocols e.g., Wi-Fi, BLE, Bluetooth BR/EDR, Zigbee, CoAP and more recently 5G NR.\n\nMS Teams Link:https://teams.microsoft.com/l/meetup-join/19%3ameeting_ZmI3Mzc1ZWMtNDBmOS00NmE5LTkzY2QtYzhlMzI4ZTQ4ZjM3%40thread.v2/0?context=%7b%22Tid%22%3a%222efd699a-1922-4e69-b601-108008d28a2e%22%2c%22Oid%22%3a%22a039aadc-3c03-47d9-9b54-085490a7ce53%22%7d
+CLASS:PUBLIC
+LOCATION:Bedford 0-07
+CATEGORIES:Software Engineering, Departmental
 END:VEVENT
 END:VCALENDAR
