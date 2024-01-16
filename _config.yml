@@ -9,6 +9,7 @@ exclude:
   - README.md
   - Gemfile
   - Gemfile.lock
+  - misc
 
 collections:
   - seminars
