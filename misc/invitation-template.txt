@@ -1,0 +1,31 @@
+Subject: Invitation to give a seminar at Royal Holloway, CS Department
+
+Dear,
+
+My name is <ORGANISER>. I am in charge of organising the departmental
+seminar at the Department of Computer Science, Royal Holloway University of
+London.
+
+I am currently putting together a schedule for this academic term.
+<PERSON> here has expressed an interest in hearing you speak.
+Would you be available to give a seminar here?
+
+<IF DEPARTMENTAL>
+The seminar will be a departmental seminar, aimed at a general audience,
+including some of the keener undergraduate students.  As such, an
+introductory talk to the area would be desired, rather than a technical
+talk aimed at experts.
+<ENDIF>
+
+The exact date can be arranged at your convenience.
+Seminars normally run on Wednesday 15:00 - 16:00, but this 
+can be flexible. Currently the following slots are available:
+<LIST OF DATE>
+
+Talks are usually 50 minutes, which makes about 45 minutes of speaking time
+with questions.
+
+
+Many thanks,
+
+<ORGANISER>
