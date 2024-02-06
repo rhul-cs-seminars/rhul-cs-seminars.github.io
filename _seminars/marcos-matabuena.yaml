@@ -1,0 +1,17 @@
+---
+topic: Machine Learning
+type: Technical
+title: Uncertainty Quantification in Metric Spaces with Applications in Biomedicine
+speaker: Marcos Matabueno
+institution: Harvard University
+webpage: https://www.marcosmatabuena.com/
+date: 2024-02-28 15:00
+venue: Bedford 0-07
+link: https://teams.microsoft.com/l/meetup-join/19%3ameeting_YWUwNGJiODYtODg3Zi00OTJhLWE2YmQtZDU2YWU2ODUzNjdh%40thread.v2/0?context=%7b%22Tid%22%3a%222efd699a-1922-4e69-b601-108008d28a2e%22%2c%22Oid%22%3a%22a039aadc-3c03-47d9-9b54-085490a7ce53%22%7d
+recording: 
+bio: >
+  Marcos Matabuena, a Spanish mathematician and current postdoctoral researcher at Harvard University, specializes in the development of mathematical models applied to digital medicine. His research focusejs on key areas such as uncertainty quantification, survival analysis, and causal inference, essential aspects for the accurate prediction of clinical events and the optimization of treatments in complex diseases. In the field of diabetes, for example, his models are fundamental for interpreting data from continuous glucose monitors. Additionally, his studies on aging-related decline, through the analysis of physical activity patterns recorded by wearable devices, are of great importance given the aging of modern populations and changing demographic scenarios. One of his most notable contributions is the development of the first mathematical framework for uncertainty quantification in regression models in metric spaces. Marcos has also introduced the innovative concept of 'glucodensity,' an advanced functional representation for interpreting continuous glucose monitoring data and other data collected through wearable devices, surpassing many aspects of traditional clinical biomarkers. Another significant contribution is the development of the first biclustering algorithm in RKHS spaces for complex data analysis
+abstract: >
+  Uncertainty quantification is crucial in the era of data-driven systems, providing confidence and accuracy in decision-making, particularly in the field of biomedicine. In this area, clinical decisions often rely on the uncertainty associated with the outcomes of various predictive algorithms. In the context of digital medicine and the evolution of biological measurement systems, clinical data are represented as statistical entities in metric spaces, such as density functions or complex networks, offering a deeper understanding of biological systems. In this presentation, we focus on introducing novel conformal inference algorithms designed for metric spaces, developed by the authors, and demonstrate their application in digital medicine with the high-resolution data mentioned. These novel methods provide robust guarantees, including optimal convergence rates, which are particularly useful when both the predictor and the response are in separable Hilbert spaces. Adaptations of these algorithms to challenges, such as incomplete information (for example, missing data), will also be explored. A significant case study is the development of algorithms for personalized data imputation. By applying this technique and integrating it with digital biomarkers, we have managed to increase the accuracy of predicting the development of diabetes by more than 20%, compared to traditional methods.
+
+---
