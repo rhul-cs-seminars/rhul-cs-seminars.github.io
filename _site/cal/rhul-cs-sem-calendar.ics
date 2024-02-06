@@ -91,4 +91,15 @@ CLASS:PUBLIC
 LOCATION:Bedford 0-07
 CATEGORIES:Machine Learning, Technical
 END:VEVENT
+BEGIN:VEVENT
+UID:RHUL-CS-Seminar-20240308
+DTSTART;TZID=Europe/London:20240308T140000
+DTEND;TZID=Europe/London:20240308T150000
+ORGANIZER;CN="RHUL CS Departmental Seminars":MAILTO:matteo.sammartino@rhul.ac.uk
+SUMMARY:CS Seminar: Bipin Rajendran -- TBD
+DESCRIPTION:TBD\n\nMS Teams Link:https://teams.microsoft.com/l/meetup-join/19%3ameeting_YWUwNGJiODYtODg3Zi00OTJhLWE2YmQtZDU2YWU2ODUzNjdh%40thread.v2/0?context=%7b%22Tid%22%3a%222efd699a-1922-4e69-b601-108008d28a2e%22%2c%22Oid%22%3a%22a039aadc-3c03-47d9-9b54-085490a7ce53%22%7d
+CLASS:PUBLIC
+LOCATION:Bedford 0-07
+CATEGORIES:Machine Learning, Technical
+END:VEVENT
 END:VCALENDAR
