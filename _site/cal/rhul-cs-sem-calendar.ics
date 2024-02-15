@@ -85,8 +85,8 @@ UID:RHUL-CS-Seminar-20240221
 DTSTART;TZID=Europe/London:20240221T150000
 DTEND;TZID=Europe/London:20240221T160000
 ORGANIZER;CN="RHUL CS Departmental Seminars":MAILTO:matteo.sammartino@rhul.ac.uk
-SUMMARY:CS Seminar: Argyrios Deligkas -- TBD
-DESCRIPTION:TBD\n\nMS Teams Link:https://teams.microsoft.com/l/meetup-join/19%3ameeting_YWUwNGJiODYtODg3Zi00OTJhLWE2YmQtZDU2YWU2ODUzNjdh%40thread.v2/0?context=%7b%22Tid%22%3a%222efd699a-1922-4e69-b601-108008d28a2e%22%2c%22Oid%22%3a%22a039aadc-3c03-47d9-9b54-085490a7ce53%22%7d
+SUMMARY:CS Seminar: Argyrios Deligkas -- Constant Inapproximability for Fisher Markets
+DESCRIPTION:We study the problem of computing approximate market equilibria in Fisher markets with separable piecewise-linear concave (SPLC) utility functions. In this setting, the problem was only known to be PPAD-complete for inverse-polynomial approximations. We strengthen this result by showing PPAD-hardness for constant approximations. This means that the problem does not admit a polynomial time approximation scheme (PTAS) unless PPAD=P. In fact, we prove that computing any approximation better than 1/11 is PPAD-complete. As a direct byproduct of our main result, we get the same inapproximability bound for Arrow-Debreu exchange markets with SPLC utility functions. This is joint work with John Fearnley (Liverpool), Alexandros Hollender (Oxford), Themistoklis Melissourgos (Essex).\n\nMS Teams Link:https://teams.microsoft.com/l/meetup-join/19%3ameeting_YWUwNGJiODYtODg3Zi00OTJhLWE2YmQtZDU2YWU2ODUzNjdh%40thread.v2/0?context=%7b%22Tid%22%3a%222efd699a-1922-4e69-b601-108008d28a2e%22%2c%22Oid%22%3a%22a039aadc-3c03-47d9-9b54-085490a7ce53%22%7d
 CLASS:PUBLIC
 LOCATION:Bedford 0-07
 CATEGORIES:Algorithms, Technical
@@ -107,8 +107,8 @@ UID:RHUL-CS-Seminar-20240308
 DTSTART;TZID=Europe/London:20240308T140000
 DTEND;TZID=Europe/London:20240308T150000
 ORGANIZER;CN="RHUL CS Departmental Seminars":MAILTO:matteo.sammartino@rhul.ac.uk
-SUMMARY:CS Seminar: Bipin Rajendran -- TBD
-DESCRIPTION:TBD\n\nMS Teams Link:https://teams.microsoft.com/l/meetup-join/19%3ameeting_YWUwNGJiODYtODg3Zi00OTJhLWE2YmQtZDU2YWU2ODUzNjdh%40thread.v2/0?context=%7b%22Tid%22%3a%222efd699a-1922-4e69-b601-108008d28a2e%22%2c%22Oid%22%3a%22a039aadc-3c03-47d9-9b54-085490a7ce53%22%7d
+SUMMARY:CS Seminar: Bipin Rajendran -- Designing Efficient and Trustworthy AI Hardware.
+DESCRIPTION:The complexity of AI models have been increasing exponentially, leading to exploding energy costs for training and inference. Furthermore, they often provide unreliable results and predictions, as they are unable to account for uncertainty in models or data. In this talk, I will discuss our recent results on designing efficient and trustworthy AI hardware based on nanoscale memristive devices. I will discuss how hardware-aware training of AI models can be used to mitigate the effect of device noise to implement in-memory computing architectures and achieve over 100-fold improvement in inference efficiency compared to CMOS designs. I will also describe how we can leverage nanoscale device stochasticity to implement Bayesian AI models that are able to provide quantifiable metrics of uncertainty associated with their decisions.\n\nMS Teams Link:https://teams.microsoft.com/l/meetup-join/19%3ameeting_YWUwNGJiODYtODg3Zi00OTJhLWE2YmQtZDU2YWU2ODUzNjdh%40thread.v2/0?context=%7b%22Tid%22%3a%222efd699a-1922-4e69-b601-108008d28a2e%22%2c%22Oid%22%3a%22a039aadc-3c03-47d9-9b54-085490a7ce53%22%7d
 CLASS:PUBLIC
 LOCATION:Founder West 101
 CATEGORIES:Machine Learning, Technical
