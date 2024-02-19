@@ -104,6 +104,17 @@ CATEGORIES:Machine Learning, Technical
 END:VEVENT
 BEGIN:VEVENT
 UID:RHUL-CS-Seminar-20240308
+DTSTART;TZID=Europe/London:20240308T110000
+DTEND;TZID=Europe/London:20240308T120000
+ORGANIZER;CN="RHUL CS Departmental Seminars":MAILTO:matteo.sammartino@rhul.ac.uk
+SUMMARY:CS Seminar: Milind Chabbi -- Demystifying Golang Concurrency Bugs.
+DESCRIPTION:Go is the language of choice at Uber for developing microservices and infrastructure tools. Go brings concurrent programming to the masses. The presence of shared memory alongside message passing makes Go a unique programming language. Writing correct and efficient parallel programs is hard; Go does not guarantee the correctness or efficiency of parallel programs. In this tech talk, I will discuss the landscape of concurrency bugs in Go and how they impact Uber's production software systems. Using data races as an example of shared-memory concurrency bugs and deadlocks as an example of message-passing bugs, I will discuss the tools we have designed and deployed over the past several years to detect and mitigate these bugs at Uber. The insights gained from close inspection of concurrency bugs in Go reveal the complex interplay between language design and concurrency bugs. \n\nMS Teams Link:https://teams.microsoft.com/l/meetup-join/19%3ameeting_YWUwNGJiODYtODg3Zi00OTJhLWE2YmQtZDU2YWU2ODUzNjdh%40thread.v2/0?context=%7b%22Tid%22%3a%222efd699a-1922-4e69-b601-108008d28a2e%22%2c%22Oid%22%3a%22a039aadc-3c03-47d9-9b54-085490a7ce53%22%7d
+CLASS:PUBLIC
+LOCATION:TBD
+CATEGORIES:Software Engineering, Technical
+END:VEVENT
+BEGIN:VEVENT
+UID:RHUL-CS-Seminar-20240308
 DTSTART;TZID=Europe/London:20240308T140000
 DTEND;TZID=Europe/London:20240308T150000
 ORGANIZER;CN="RHUL CS Departmental Seminars":MAILTO:matteo.sammartino@rhul.ac.uk
