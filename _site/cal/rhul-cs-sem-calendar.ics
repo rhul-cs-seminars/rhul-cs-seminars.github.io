@@ -97,7 +97,7 @@ DTSTART;TZID=Europe/London:20240228T150000
 DTEND;TZID=Europe/London:20240228T160000
 ORGANIZER;CN="RHUL CS Departmental Seminars":MAILTO:matteo.sammartino@rhul.ac.uk
 SUMMARY:CS Seminar: Marcos Matabueno -- Uncertainty Quantification in Metric Spaces with Applications in Biomedicine
-DESCRIPTION:Uncertainty quantification is crucial in the era of data-driven systems, providing confidence and accuracy in decision-making, particularly in the field of biomedicine. In this area, clinical decisions often rely on the uncertainty associated with the outcomes of various predictive algorithms. In the context of digital medicine and the evolution of biological measurement systems, clinical data are represented as statistical entities in metric spaces, such as density functions or complex networks, offering a deeper understanding of biological systems. In this presentation, we focus on introducing novel conformal inference algorithms designed for metric spaces, developed by the authors, and demonstrate their application in digital medicine with the high-resolution data mentioned. These novel methods provide robust guarantees, including optimal convergence rates, which are particularly useful when both the predictor and the response are in separable Hilbert spaces. Adaptations of these algorithms to challenges, such as incomplete information (for example, missing data), will also be explored. A significant case study is the development of algorithms for personalized data imputation. By applying this technique and integrating it with digital biomarkers, we have managed to increase the accuracy of predicting the development of diabetes by more than 20%, compared to traditional methods.\n\nMS Teams Link:https://teams.microsoft.com/l/meetup-join/19%3ameeting_YWUwNGJiODYtODg3Zi00OTJhLWE2YmQtZDU2YWU2ODUzNjdh%40thread.v2/0?context=%7b%22Tid%22%3a%222efd699a-1922-4e69-b601-108008d28a2e%22%2c%22Oid%22%3a%22a039aadc-3c03-47d9-9b54-085490a7ce53%22%7d
+DESCRIPTION:Uncertainty quantification is crucial in the era of data-driven systems, providing confidence and accuracy in decision-making, particularly in the field of biomedicine. In this area, clinical decisions often rely on the uncertainty associated with the outcomes of various predictive algorithms. In the context of digital medicine and the evolution of biological measurement systems, clinical data are represented as statistical entities in metric spaces, such as density functions or complex networks, offering a deeper understanding of biological systems. In this presentation, we focus on introducing novel conformal inference algorithms designed for metric spaces, developed by the authors, and demonstrate their application in digital medicine with the high-resolution data mentioned. These novel methods provide robust guarantees, including optimal convergence rates, which are particularly useful when both the predictor and the response are in separable Hilbert spaces. Adaptations of these algorithms to challenges, such as incomplete information (for example, missing data), will also be explored. A significant case study is the development of algorithms for personalized data imputation. By applying this technique and integrating it with digital biomarkers, we have managed to increase the accuracy of predicting the development of diabetes by more than 20%, compared to traditional methods.\n\nMS Teams Link:https://teams.microsoft.com/l/meetup-join/19%3ameeting_NjliYWQ0ZDUtZTM1Yy00YmQyLWEyZDMtZWFlOGU0ZjBlNTM5%40thread.v2/0?context=%7b%22Tid%22%3a%222efd699a-1922-4e69-b601-108008d28a2e%22%2c%22Oid%22%3a%229c6a898b-86f6-4344-8f36-27129ffe3748%22%7d
 CLASS:PUBLIC
 LOCATION:Bedford 0-07
 CATEGORIES:Machine Learning, Technical
@@ -108,9 +108,9 @@ DTSTART;TZID=Europe/London:20240308T110000
 DTEND;TZID=Europe/London:20240308T120000
 ORGANIZER;CN="RHUL CS Departmental Seminars":MAILTO:matteo.sammartino@rhul.ac.uk
 SUMMARY:CS Seminar: Milind Chabbi -- Demystifying Golang Concurrency Bugs.
-DESCRIPTION:Go is the language of choice at Uber for developing microservices and infrastructure tools. Go brings concurrent programming to the masses. The presence of shared memory alongside message passing makes Go a unique programming language. Writing correct and efficient parallel programs is hard; Go does not guarantee the correctness or efficiency of parallel programs. In this tech talk, I will discuss the landscape of concurrency bugs in Go and how they impact Uber's production software systems. Using data races as an example of shared-memory concurrency bugs and deadlocks as an example of message-passing bugs, I will discuss the tools we have designed and deployed over the past several years to detect and mitigate these bugs at Uber. The insights gained from close inspection of concurrency bugs in Go reveal the complex interplay between language design and concurrency bugs. \n\nMS Teams Link:https://teams.microsoft.com/l/meetup-join/19%3ameeting_YWUwNGJiODYtODg3Zi00OTJhLWE2YmQtZDU2YWU2ODUzNjdh%40thread.v2/0?context=%7b%22Tid%22%3a%222efd699a-1922-4e69-b601-108008d28a2e%22%2c%22Oid%22%3a%22a039aadc-3c03-47d9-9b54-085490a7ce53%22%7d
+DESCRIPTION:Go is the language of choice at Uber for developing microservices and infrastructure tools. Go brings concurrent programming to the masses. The presence of shared memory alongside message passing makes Go a unique programming language. Writing correct and efficient parallel programs is hard; Go does not guarantee the correctness or efficiency of parallel programs. In this tech talk, I will discuss the landscape of concurrency bugs in Go and how they impact Uber's production software systems. Using data races as an example of shared-memory concurrency bugs and deadlocks as an example of message-passing bugs, I will discuss the tools we have designed and deployed over the past several years to detect and mitigate these bugs at Uber. The insights gained from close inspection of concurrency bugs in Go reveal the complex interplay between language design and concurrency bugs. \n\nMS Teams Link:
 CLASS:PUBLIC
-LOCATION:TBD
+LOCATION:Bedford 0-07
 CATEGORIES:Software Engineering, Technical
 END:VEVENT
 BEGIN:VEVENT
@@ -147,12 +147,12 @@ LOCATION:Bedford 0-07
 CATEGORIES:Algorithms, Technical
 END:VEVENT
 BEGIN:VEVENT
-UID:RHUL-CS-Seminar-20240403
-DTSTART;TZID=Europe/London:20240403T150000
-DTEND;TZID=Europe/London:20240403T160000
+UID:RHUL-CS-Seminar-20240405
+DTSTART;TZID=Europe/London:20240405T140000
+DTEND;TZID=Europe/London:20240405T150000
 ORGANIZER;CN="RHUL CS Departmental Seminars":MAILTO:matteo.sammartino@rhul.ac.uk
 SUMMARY:CS Seminar: Michelle Döring -- TBD
-DESCRIPTION:TBD\n\nMS Teams Link:https://teams.microsoft.com/l/meetup-join/19%3ameeting_YWUwNGJiODYtODg3Zi00OTJhLWE2YmQtZDU2YWU2ODUzNjdh%40thread.v2/0?context=%7b%22Tid%22%3a%222efd699a-1922-4e69-b601-108008d28a2e%22%2c%22Oid%22%3a%22a039aadc-3c03-47d9-9b54-085490a7ce53%22%7d
+DESCRIPTION:TBD\n\nMS Teams Link:
 CLASS:PUBLIC
 LOCATION:Bedford 0-07
 CATEGORIES:Algorithms, Technical
