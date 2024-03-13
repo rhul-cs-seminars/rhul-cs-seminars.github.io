@@ -151,8 +151,8 @@ UID:RHUL-CS-Seminar-20240405
 DTSTART;TZID=Europe/London:20240405T140000
 DTEND;TZID=Europe/London:20240405T150000
 ORGANIZER;CN="RHUL CS Departmental Seminars":MAILTO:matteo.sammartino@rhul.ac.uk
-SUMMARY:CS Seminar: Michelle Döring -- TBD
-DESCRIPTION:TBD\n\nMS Teams Link:
+SUMMARY:CS Seminar: Michelle Döring -- River: A Refinement of Split Cycle That Is Independent of Pareto-Dominated Alternatives
+DESCRIPTION:River is a single-winner, Condorcet-consistent voting method that is based on pairwise margins and can be seen as a simplified variation of Tideman's Ranked Pairs method. Like Ranked Pairs and Schulze's Beat Path, River is a refinement of the Split Cycle method and shares many desirable properties with these. Unlike the other three methods, River satisfies a strong form of resistance to agenda-manipulation that is known as independence of Pareto-dominated alternatives. We will look at axiomatic properties of River and analyse our experimental results to establish that River provides a compromise between Ranked Pairs and Beat Path.\n\nMS Teams Link:https://teams.microsoft.com/l/meetup-join/19%3ameeting_MDJkOGMxN2MtMzY5Zi00Yzk4LTljMWEtMTQwMTliNmY3MGUz%40thread.v2/0?context=%7b%22Tid%22%3a%222efd699a-1922-4e69-b601-108008d28a2e%22%2c%22Oid%22%3a%229c6a898b-86f6-4344-8f36-27129ffe3748%22%7d
 CLASS:PUBLIC
 LOCATION:Bedford 0-07
 CATEGORIES:Algorithms, Technical

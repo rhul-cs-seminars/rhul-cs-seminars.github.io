@@ -1,17 +1,18 @@
 ---
 topic: Algorithms
 type: Technical
-title: TBD
+title: "River: A Refinement of Split Cycle That Is Independent of Pareto-Dominated Alternatives"
 speaker: Michelle Döring
 institution: Hasso-Plattner-Institut
 webpage: https://hpi.de/friedrich/people/michelle-doering.html
 date: 2024-04-05 14:00
 venue: Bedford 0-07
-link: 
+link: https://teams.microsoft.com/l/meetup-join/19%3ameeting_MDJkOGMxN2MtMzY5Zi00Yzk4LTljMWEtMTQwMTliNmY3MGUz%40thread.v2/0?context=%7b%22Tid%22%3a%222efd699a-1922-4e69-b601-108008d28a2e%22%2c%22Oid%22%3a%229c6a898b-86f6-4344-8f36-27129ffe3748%22%7d
 recording: 
 bio: >
-  TBD
+  Michelle specialized in the study of graph structures during her bachelor's degree in mathematics at TU Berlin.  During her master's in computer science, she further explored graph theory and was introduced to social choice theory, culminating in her master's thesis in 2022. Currently, she is a PhD student at HPI in Potsdam, focusing her research on temporal graph structures and voting methods.
 abstract: >
-  TBD
+  River is a single-winner, Condorcet-consistent voting method that is based on pairwise margins and can be seen as a simplified variation of Tideman's Ranked Pairs method. Like Ranked Pairs and Schulze's Beat Path, River is a refinement of the Split Cycle method and shares many desirable properties with these. Unlike the other three methods, River satisfies a strong form of resistance to agenda-manipulation that is known as independence of Pareto-dominated alternatives. We will look at axiomatic properties of River and analyse our experimental results to establish that River provides a compromise between Ranked Pairs and Beat Path.
+
 
 ---
