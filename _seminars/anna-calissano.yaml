@@ -1,0 +1,17 @@
+---
+topic: Machine Learning
+type: Technical
+title: Regression Model for Unlabelled Graphs with Application to Football and Public Transport
+speaker: Anna Calissano
+institution: Imperial College London
+webpage: https://annacalissano.github.io/
+date: 2024-03-20 15:00
+venue: Bedford 0-07
+link: https://teams.microsoft.com/l/meetup-join/19%3ameeting_MjZmMjhhZjUtNDM3NC00ODQ2LTkzYmQtN2JhNGY2ODFiYjE3%40thread.v2/0?context=%7b%22Tid%22%3a%222efd699a-1922-4e69-b601-108008d28a2e%22%2c%22Oid%22%3a%229c6a898b-86f6-4344-8f36-27129ffe3748%22%7d
+recording: 
+bio: >
+  Anna Calissano is a Chapman Fellow at Imperial College London. She received her PhD at Politecnico di Milano in collaboration with Danmarks Tekniske Universitet (DTU) in Denmark. Her research lays at the intersection between geometry and statistics and focuses on defining statistical methods for the analysis of sets of graphs and networks. Her methods have been applied to landscape designing, public transport modelling, and the analysis of medical images.
+abstract: >
+  Sets of graphs (or networks) arise in many different fields, from medicine to finance, from sport to the social sciences. The analysis of unlabeled graphs or networks is far from trivial due to the highly non-Euclidean nature of such data. We describe Graph Space as a possible geometric embedding for a set of unlabeled graphs, i.e. graphs with no node correspondence across observations. Graph Space is a quotient space, but it is not a manifold, requiring the definition of statistical methods beyond the tangent space approach. We introduce the Align All and Compute algorithm and use it for both estimating generalized geodesic principal components and generalized geodesic regression models, showing how to interpolate between unlabeled graphs. We demonstrate the flexibility of the framework on both simulated data, public transport system data and Fifa 2018 player passing network data.
+
+---

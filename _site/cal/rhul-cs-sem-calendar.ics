@@ -136,6 +136,17 @@ LOCATION:Bedford 0-07
 CATEGORIES:Algorithms, Technical
 END:VEVENT
 BEGIN:VEVENT
+UID:RHUL-CS-Seminar-20240320
+DTSTART;TZID=Europe/London:20240320T150000
+DTEND;TZID=Europe/London:20240320T160000
+ORGANIZER;CN="RHUL CS Departmental Seminars":MAILTO:matteo.sammartino@rhul.ac.uk
+SUMMARY:CS Seminar: Anna Calissano -- Regression Model for Unlabelled Graphs with Application to Football and Public Transport
+DESCRIPTION:Sets of graphs (or networks) arise in many different fields, from medicine to finance, from sport to the social sciences. The analysis of unlabeled graphs or networks is far from trivial due to the highly non-Euclidean nature of such data. We describe Graph Space as a possible geometric embedding for a set of unlabeled graphs, i.e. graphs with no node correspondence across observations. Graph Space is a quotient space, but it is not a manifold, requiring the definition of statistical methods beyond the tangent space approach. We introduce the Align All and Compute algorithm and use it for both estimating generalized geodesic principal components and generalized geodesic regression models, showing how to interpolate between unlabeled graphs. We demonstrate the flexibility of the framework on both simulated data, public transport system data and Fifa 2018 player passing network data.\n\nMS Teams Link:https://teams.microsoft.com/l/meetup-join/19%3ameeting_MjZmMjhhZjUtNDM3NC00ODQ2LTkzYmQtN2JhNGY2ODFiYjE3%40thread.v2/0?context=%7b%22Tid%22%3a%222efd699a-1922-4e69-b601-108008d28a2e%22%2c%22Oid%22%3a%229c6a898b-86f6-4344-8f36-27129ffe3748%22%7d
+CLASS:PUBLIC
+LOCATION:Bedford 0-07
+CATEGORIES:Machine Learning, Technical
+END:VEVENT
+BEGIN:VEVENT
 UID:RHUL-CS-Seminar-20240327
 DTSTART;TZID=Europe/London:20240327T150000
 DTEND;TZID=Europe/London:20240327T160000
