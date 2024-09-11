@@ -16,7 +16,7 @@
     </thead>
     <tbody>
     {% assign talk_id = 0 %}
-    {% assign sorted_seminars = site.seminars | sort: "date" %}
+    {% assign sorted_seminars = site.seminars | sort: "date" | reverse %}
     {% for seminar in sorted_seminars %}
         {% assign heading_id = "heading" | append: talk_id %}
         {% assign collapse_id = "collapse" | append: talk_id %}
