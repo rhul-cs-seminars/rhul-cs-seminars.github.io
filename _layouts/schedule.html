@@ -5,4 +5,19 @@ layout: main
 {{ content }}
 
 <br/>
-{% include schedule.html %}
+
+<div class="card"></div>
+    <div class="card-header">
+        <!-- <div class="container-md"> -->
+        {% include title.html %}
+        <!-- </div> -->
+    </div>
+    <div class="card-body">
+        {% include schedule.html  %}
+</div>
+<div class="card-footer text-muted">
+    <p> Link to ICS calendar:
+        <a href="{{site.url}}/cal/rhul-cs-sem-calendar.ics">{{site.url}}/cal/rhul-cs-sem-calendar.ics</a>
+    </p>
+  </div>
+</div>

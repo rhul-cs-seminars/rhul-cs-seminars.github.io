@@ -1,12 +1,6 @@
-<div class="card">
-    <div class="card-header">
-        <!-- <div class="container-md"> -->
-        {% include title.html %}
-        <!-- </div> -->
-    </div>
-    <div class="card-body">
+
 <table class="table table-sm">
-    <thead>
+    <thead class="table-dark">
         <tr>
             <th scope="col">Time</th>
             <th scope="col">Speaker</th>
@@ -16,53 +10,57 @@
     </thead>
     <tbody>
     {% assign talk_id = 0 %}
-    {% assign sorted_seminars = site.seminars | sort: "date" | reverse %}
-    {% for seminar in sorted_seminars %}
-        {% assign heading_id = "heading" | append: talk_id %}
-        {% assign collapse_id = "collapse" | append: talk_id %}
-        <tr scope="row">
-            <td>{{ seminar.date | date: "%d %b %Y, %H:%M" }}</td>
-            <td><a href="{{ seminar.webpage }}" target="_blank">{{ seminar.speaker }}</a> 
-            &nbsp;({{ seminar.institution}})</td>
-            <td>
-                {% if seminar.title == "" or seminar.title == nil %}
-                    TBD
-                {% else %} 
-                    {{ seminar.title }}           
-                {% endif %}          
-                <span class="badge bg-danger">{{ seminar.topic }}</span>
-                <span class="badge bg-primary">{{ seminar.type }}</span>
-            </td>
-            <td>
-                {% if seminar.venue or seminar.abstract %}
-                    <a href data-bs-toggle="collapse" data-bs-target="#{{collapse_id}}" aria-expanded="false" aria-controls="{{collapse_id}}">
-                        Show Details
-                    </a>
-                {% else %}
-                    No Details Yet
-                {% endif %}
-            </td>
-        </tr>
-        <tr class="collapsed-row bg-light bg-gradient">
+    {% assign collections = site.collections | sort: "order" %}
+    {% for collection in collections %}
+    
+        <tr  class="table-primary">
             <td colspan="4">
-                <div class="collapse" id="{{collapse_id}}" style="">
-                    {% capture talk_venue %}{{seminar.venue}}{% endcapture %}
-                    {% capture talk_link %}{{seminar.link}}{% endcapture %}
-                    {% capture talk_bio %}{{seminar.bio}}{% endcapture %}
-                    {% capture talk_abstract %}{{seminar.abstract}}{% endcapture %}
-                    {% capture talk_recording %}{{seminar.recording}}{% endcapture %}
-                    {% include talk_details.html venue=talk_venue link=talk_link bio=talk_bio abstract=talk_abstract recording=talk_recording%}
-                </div>
+                {{ collection.name }}
             </td>
         </tr>
-        {% assign talk_id = talk_id | plus: 1 %}
+        {% assign sorted_seminars = collection.docs | sort: "date" | reverse %}
+        {% for seminar in sorted_seminars %}
+            {% assign heading_id = "heading" | append: talk_id %}
+            {% assign collapse_id = "collapse" | append: talk_id %}
+            <tr scope="row">
+                <td>{{ seminar.date | date: "%d %b %Y, %H:%M" }}</td>
+                <td><a href="{{ seminar.webpage }}" target="_blank">{{ seminar.speaker }}</a> 
+                &nbsp;({{ seminar.institution}})</td>
+                <td>
+                    {% if seminar.title == "" or seminar.title == nil %}
+                        TBD
+                    {% else %} 
+                        {{ seminar.title }}           
+                    {% endif %}          
+                    <span class="badge bg-danger">{{ seminar.topic }}</span>
+                    <span class="badge bg-primary">{{ seminar.type }}</span>
+                </td>
+                <td>
+                    {% if seminar.venue or seminar.abstract %}
+                        <a href data-bs-toggle="collapse" data-bs-target="#{{collapse_id}}" aria-expanded="false" aria-controls="{{collapse_id}}">
+                            Show Details
+                        </a>
+                    {% else %}
+                        No Details Yet
+                    {% endif %}
+                </td>
+            </tr>
+            <tr class="collapsed-row bg-light bg-gradient">
+                <td colspan="4">
+                    <div class="collapse" id="{{collapse_id}}" style="">
+                        {% capture talk_venue %}{{seminar.venue}}{% endcapture %}
+                        {% capture talk_link %}{{seminar.link}}{% endcapture %}
+                        {% capture talk_bio %}{{seminar.bio}}{% endcapture %}
+                        {% capture talk_abstract %}{{seminar.abstract}}{% endcapture %}
+                        {% capture talk_recording %}{{seminar.recording}}{% endcapture %}
+                        {% include talk_details.html venue=talk_venue link=talk_link bio=talk_bio abstract=talk_abstract recording=talk_recording%}
+                    </div>
+                </td>
+            </tr>
+            {% assign talk_id = talk_id | plus: 1 %}
+        {% endfor %}
     {% endfor %}
+
 </tbody>
 </table>
-</div>
-<div class="card-footer text-muted">
-    <p> Link to ICS calendar:
-        <a href="{{site.url}}/cal/rhul-cs-sem-calendar.ics">{{site.url}}/cal/rhul-cs-sem-calendar.ics</a>
-    </p>
-  </div>
-</div>
+

@@ -12,7 +12,17 @@ exclude:
   - misc
 
 collections:
-  - seminars
+  autumn_24_25:
+    order: 1
+    name: "Autumn 2024-25"
+  spring_23_24:
+    order: 2
+    name: "Spring 2023-24"
+  autumn_23_24:
+    order: 3
+    name: "Autumn 2023-24"
+
+collections_dir: seminars
 
 # plugins:
 #   - jekyll-autoprefixer
