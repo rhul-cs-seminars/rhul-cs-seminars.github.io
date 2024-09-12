@@ -10,9 +10,8 @@
     </thead>
     <tbody>
     {% assign talk_id = 0 %}
-    {% assign collections = site.collections | sort: "order" %}
+    {% assign collections = site.collections | where_exp: "collection", "collection.label != 'posts'"  | sort: "order" %}
     {% for collection in collections %}
-    
         <tr  class="table-primary">
             <td colspan="4">
                 {{ collection.name }}
