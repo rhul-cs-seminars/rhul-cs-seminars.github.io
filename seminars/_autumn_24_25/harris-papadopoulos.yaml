@@ -1,0 +1,19 @@
+---
+topic: Machine Learning
+type: Departmental
+title: >
+  Reliable Uncertainty Quantification Through Conformal Prediction: Highlights from Frederick University's COIN Lab
+speaker: Harris Papadopoulos
+institution: Frederick University
+webpage: https://www.frederick.ac.cy/en/about-us/faculty-staff/faculty?view=page&id=108&lid=190
+date: 2024-09-23 14:00
+venue: Bedford 0-07
+link: https://teams.microsoft.com/l/meetup-join/19%3ameeting_MDdkNzZkN2QtMGNiNi00YWRhLWI1ZTItMmUzOWNhNWQ3YmRi%40thread.v2/0?context=%7b%22Tid%22%3a%222efd699a-1922-4e69-b601-108008d28a2e%22%2c%22Oid%22%3a%229c6a898b-86f6-4344-8f36-27129ffe3748%22%7d
+recording: 
+bio: >
+  Harris Papadopoulos is an Associate Professor at the Department of Electrical Engineering, Computer Engineering and Informatics of Frederick University, where he is heading the Computational Intelligence (COIN) Laboratory. He is also a Visiting Professor at the Computer Science Department of Royal Holloway, University of London. His research primarily focuses on the development of advanced Machine Learning techniques that provide probabilistically valid uncertainty quantification for each prediction under minimal assumptions, and on their application to a diverse array of challenges in various scientific fields. He has published more than 75 research papers in prestigious international refereed journals and conferences. He acted as co-editor of the book “Measures of Complexity: Festschrift in Honor of Alexey Chervonenkis” published by Springer in 2015, which was dedicated to one of the most influential figures in the field of Machine Learning. He has been involved in several national and EU funded research projects, frequently taking the lead as the coordinator and initiator, with a total budget of more than 6M euro. Direct funding to his lab in the past five (5) years exceeds 1.5M euro. He has also secured an industrial grant (of around 400,000 euro) for the application of Machine Learning techniques to large volumes of data, from one of the biggest international consulting companies for complicated assets. He served as an Associate Editor of the Evolving Systems Journal (Springer) from 2015 to 2018 and as guest editor and reviewer for numerous esteemed scientific journals. Additionally, he served as one of the main organizers of several international conferences and workshops (General Chair of COPA 2023, AIAI 2013, Organizing Chair of AIAI 2010, PC Chair of eight conferences and Chair of nine workshops).
+abstract: >
+  Conformal Prediction (CP), a framework pioneered at Royal Holloway’s Centre for Reliable Machine Learning, has marked a significant stride towards more reliable machine learning models. CP stands out as a versatile framework capable of offering prediction regions with valid coverage guarantees under minimal assumptions. Its unique strength lies in providing probabilistically valid guarantees, which are of paramount importance for complex tasks across various domains where decision certainty is crucial.
+  This talk will introduce the CP framework and discuss the recent advancements made by the COmputational INtelligence (COIN) research laboratory at Frederick University in Cyprus. Maintaining strong collaborative ties with Royal Holloway, COIN has significantly contributed to the ongoing development and application of CP across diverse fields spanning from biomedicine and engineering to entertainment and agriculture.
+  The aim of this talk is to showcase the foundational and applied research contributions of COIN, fostering dialogue and exploring potential collaborations with attendees interested in advancing the field of reliable machine learning.
+---
