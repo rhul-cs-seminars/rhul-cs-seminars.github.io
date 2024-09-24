@@ -1,0 +1,19 @@
+---
+topic: Machine Learning
+type: Technical
+title: >
+  Conformal e-prediction
+speaker: Volodya Vovk
+institution: Royal Holloway, University of London
+webpage:  https://vovk.net/
+date: 2024-10-23 11:00
+venue: BOURNE-LT2
+link: 
+recording: 
+bio: >
+  Vladimir Vovk is a Professor at Royal Holloway, and co-director of the CRML. He is the co-inventor of Conformal Prediction and game-theoretic probability.
+abstract: >
+  I will start from a brief review of e-values, which are becoming popular as an alternative to p-values in statistical hypothesis testing. Conformal e-prediction is the counterpart of conformal prediction for e-values. Conformal e-prediction is conceptually simpler and had been developed in the 1990s as precursor of conformal prediction. When conformal prediction emerged as result of replacing e-values by p-values, it seemed to have important advantages over conformal e-prediction without obvious disadvantages. The work reported in this talk re-examines relations between conformal prediction and conformal e-prediction systematically from a modern perspective. Conformal e-prediction has advantages of its own, such as the ease of designing conditional conformal e-predictors and the guaranteed validity of cross-conformal e-predictors (whereas for cross-conformal predictors validity is only an empirical fact and can be broken with excessive randomization). Even where conformal prediction has clear advantages, conformal e-prediction can often emulate those advantages, more or less successfully.
+
+
+---
