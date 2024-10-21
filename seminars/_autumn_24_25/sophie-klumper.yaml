@@ -1,0 +1,19 @@
+---
+topic: Algorithms
+type: Technical
+title: >
+  To Trust or Not to Trust: Assignment Mechanisms with Predictions in the Private Graph Model
+speaker: Sophie Klumper
+institution: Centrum Wiskunde & Informatica (CWI)
+webpage:  https://www.cwi.nl/en/people/sophie-klumper/
+date: 2024-11-27 11:00
+venue: BOURNE-LT2
+link: 
+recording: 
+bio: >
+  Sophie Klumper is a fourth-year PhD student in the Networks and Optimization Group at Centrum Wiskunde & Informatica (CWI), where she is advised by Guido Schäfer. Her primary research interests are algorithmic game theory and approximation algorithms.
+abstract: >
+  The realm of algorithms with predictions has led to the development of several new algorithms that leverage (potentially erroneous) predictions to enhance their performance guarantees. The challenge here is to devise algorithms that achieve optimal approximation guarantees as the prediction quality varies from perfect (consistency) to imperfect (robustness). This framework is particularly appealing in mechanism design contexts, where predictions might convey private information about the agents, motivating our research. Our goal is to design strategyproof mechanisms that leverage predictions to achieve improved approximation guarantees for several variants of the Generalized Assignment Problem (GAP) in the private graph model. In this model, first introduced by Dughmi and Ghosh (2010), the set of resources that an agent is compatible with is private information, and assigning an agent to an incompatible resource generates zero value. For the Bipartite Matching Problem (BMP), we give a deterministic group-strategyproof (GSP) mechanism that is (1+1/γ)-consistent and (1+γ)-robust, where γ ≥ 1 is some confidence parameter. We also prove that this is best possible. Remarkably, our mechanism draws inspiration from the renowned Gale-Shapley algorithm, incorporating predictions as a crucial element. Additionally, we consider multiple variants of GAP for which we provide deterministic or randomized mechanisms that are (universally) GSP. All our mechanisms also provide more fine-grained approximation guarantees that smoothly interpolate between the consistency and robustness guarantees, depending on some natural error measure of the prediction.
+
+
+---
