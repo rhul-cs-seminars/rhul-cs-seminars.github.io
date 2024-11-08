@@ -1,0 +1,19 @@
+---
+topic: Machine Learning
+type: Technical
+title: >
+  Deep learning for large-scale ecosystem monitoring
+speaker: Christian Igel
+institution: University of Copenhagen
+webpage:  https://christian-igel.github.io/index.html
+date: 2024-12-05 10:00
+venue: TBD
+link: 
+recording: 
+bio: >
+
+abstract: >
+  Tree-based ecosystems play an important role for carbon sequestration and biodiversity as well as for timber and food production. We need a better characterization of woody resources at a global scale to understand how these ecosystems are affected by climate change and human management. Recent advances in remote sensing and machine learning (ML) based computer vision make this possible. Deep learning applied to high-resolution satellite imagery allows, for example, for large-scale mapping of individual trees. The biomass of each tree, and thereby its carbon content, can then be estimated from the crown size using allometric equations learned from data. The functional relation is assumed to be non-decreasing, and incorporating this constraint into ML-based modelling increase the scientific plausibility and acts as a strong regularizer. We highlight an application of tree carbon stock quantification in Rwanda, where it helps developing  pathways to reach the country’s sustainable development goals. The talk closes with a presentation of recently released open source image data sets for training ML models for different environmental monitoring tasks.
+
+
+---
