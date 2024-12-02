@@ -7,10 +7,12 @@ speaker: Christian Igel
 institution: University of Copenhagen
 webpage:  https://christian-igel.github.io/index.html
 date: 2024-12-05 10:00
-venue: TBD
-link: 
+venue: BOURNE-LT2
+link: https://teams.microsoft.com/l/meetup-join/19%3ameeting_YWEzNTQ3NWMtMDlhNi00N2E2LTk0ZTgtZmI0ZTAwZTNjNzg0%40thread.v2/0?context=%7b%22Tid%22%3a%222efd699a-1922-4e69-b601-108008d28a2e%22%2c%22Oid%22%3a%229c6a898b-86f6-4344-8f36-27129ffe3748%22%7d
 recording: 
 bio: >
+  Christian Igel is a professor at DIKU, the Department of Computer Science at the University of Copenhagen. He studied Computer Science at the Technical University of Dortmund, Germany. In 2002, he received his Doctoral degree from the Faculty of Technology, Bielefeld University, Germany, and in 2010 his Habilitation degree from the Department of Electrical Engineering and Information Sciences, Ruhr-University Bochum, Germany. From 2003 to 2010, he was a Juniorprofessor for Optimization of Adaptive Systems at the Institut für Neuroinformatik, Ruhr-University Bochum. In October 2010, he was appointed professor with special duties in machine learning at DIKU. Since December 2014 he has been a full professor at DIKU.
+  His main research area is Machine Learning. Currently, he is particularly interested in support vector machines and other kernel-based methods, evolution strategies for single- and multi-objective optimization and reinforcement learning, PAC-Bayesian analysis of ensemble methods, deep neural networks and stochastic neural networks, and applications of machine learning that help achieve the sustainable development goals.
 
 abstract: >
   Tree-based ecosystems play an important role for carbon sequestration and biodiversity as well as for timber and food production. We need a better characterization of woody resources at a global scale to understand how these ecosystems are affected by climate change and human management. Recent advances in remote sensing and machine learning (ML) based computer vision make this possible. Deep learning applied to high-resolution satellite imagery allows, for example, for large-scale mapping of individual trees. The biomass of each tree, and thereby its carbon content, can then be estimated from the crown size using allometric equations learned from data. The functional relation is assumed to be non-decreasing, and incorporating this constraint into ML-based modelling increase the scientific plausibility and acts as a strong regularizer. We highlight an application of tree carbon stock quantification in Rwanda, where it helps developing  pathways to reach the country’s sustainable development goals. The talk closes with a presentation of recently released open source image data sets for training ML models for different environmental monitoring tasks.
