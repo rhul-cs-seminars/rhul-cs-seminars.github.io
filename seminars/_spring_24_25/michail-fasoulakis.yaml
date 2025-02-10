@@ -1,18 +1,25 @@
 ---
-topic: 
+topic: Machine Learning
 type: Technical
 title: >
-  
+    New algorithms for two-player zero-sum games: from games to optimization and learning.
 speaker: Michael Fasoulakis
 institution: Royal Holloway, University of London
-webpage:  
+webpage:  https://users.ics.forth.gr/~mfasoul/
 date: 2025-02-19 13:00
 venue: BEDFORD-0-07
 link: 
 recording: 
 bio: >
-  
+    Dr. Michail Fasoulakis is an (Applied) Mathematician and (Theoretical) Computer Scientist, with a background and interest in Computer Engineering and (Computational) Economics/Game theory/Operations Research, and currently a Lecturer in Theoretical Computer Science at Royal Holloway, University of London and an Affiliated/Corresponding Scientist of Abroad (Honorary title) at the Institute of Computer Science of FORTH. 
+    He holds a B.Sc. in Computer Science, a second B.Sc. in Mathematics, and a M.Sc. in Communications and Signal Processing, all from the University of Crete. Furthermore, he holds a M.Sc. in Computation and Game theory from the University of Liverpool, UK. He received the Ph.D. in (Theoretical) Computer Science from the University of Warwick UK, in 2017, working in the research area of algorithmic game theory, where he was a member of the Centre for Discrete Mathematics and its Applications.
+    After his PhD studies he had research fellow/postdoc positions in various academic places such as Athens University of Economics and Business (AUEB), Center for Mathematics and Computer Science in Netherlands - Centrum Wiskunde & Informatica/CWI (as an ERCIM "Alain Bensoussan" fellow), Foundation for Research and Technology–Hellas (FORTH) as a Stavros Niarchos Foundation (SNF)-FORTH fellow for a period, School of Electrical and Computer Engineering of the National Technical University of Athens, and University of Crete. He has also been a visiting researcher at the University of Liverpool, UK, and the University of Warwick, UK.
+    His research interests include the (intersections of) areas of Algorithms, Game theory, Optimization, Mathematics of Information (Information theory), and their (theoretical) applications, especially in Operations Research, Economics, AI/ML, Communications, and Signal Processing. His work has been published in high quality journals and conferences' proceedings such as ACM Transactions on Algorithms, Algorithmica, IEEE Transactions on Neural Networks and Learning Systems, SIAM Journal on Computing, AAAI, AISTATS, ESA, and SODA, with notable contributions, with his coauthors, the current state of art polynomial-time algorithms for computing approximate (well-supported) Nash equilibria in bimatrix games, giving the best approximation bounds at the moment of the publications. During his studies and career, he has been awarded with a number of research grants/fellowships-scholarships/awards.
 abstract: >
-  
+    By the seminal paper of John von Neumann on the Minimax Theorem for two-player zero-sum games, this class of games became one of the most fundamental class in game theory.
+    It is well-known that the computation of a pair of optimal solutions, Nash equilibrium, in this class can be done in polynomial-time by a number of different algorithms such as algorithms for Linear programming, fist-order methods 
+    and learning algorithms. However, many of these algorithms are centralized and/or converge to an optimal solution on average. 
+    On the other hand, recent applications of zero-sum games in machine learning, particularly Generative Adversarial Networks (GANS), have created the need of new algorithms with better properties such as last-iterate convergence to an optimal solution.
+    In this presentation, we present our two recent algorithms for computing a Nash equilibrium in these games: one gradient-based algorithm and one learning algorithm that improve the state of the art from different perspectives.
 
 ---

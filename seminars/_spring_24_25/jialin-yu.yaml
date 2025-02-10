@@ -1,8 +1,8 @@
 ---
-topic: 
+topic: Machine Learning
 type: Technical
 title: >
-  
+  From Seeing Machine to Doing Machine: Compositional Generalisation Using Factor Graph Models
 speaker: Jialin Yu
 institution:  University College London
 webpage:  
@@ -11,8 +11,8 @@ venue: BEDFORD-0-07
 link: 
 recording: 
 bio: >
-  
+  Dr. Jialin Yu is a postdoctoral researcher in the Department of Statistical Science at UCL. His research lies at the intersection of machine learning, representation learning, and causal inference, with a focus on developing robust and generalizable models for real-world applications. His work leverages principled statistical methods, including Bayesian inference and causal reasoning, to enhance AI systems' ability to generalize beyond observed data.
 abstract: >
-  
+  In this talk, I will start with a general introduction on the hierarchy of machine learning models (seeing, knowing and doing machines). Then move to introduce one of the attempt to building a certain type of doing machine, which allow us to answer the following question: "how do we generalize from past experiments to novel compositional conditions?". One of the goals of causal inference is to generalize from past experiments and observational data to novel conditions. While it is in principle possible to eventually learn a mapping from a novel experimental condition to an outcome of interest, provided a sufficient variety of experiments is available in the training data, coping with a large combinatorial space of possible interventions is hard. Under a typical sparse experimental design, this mapping is ill-posed without relying on heavy regularization or prior distributions. Such assumptions may or may not be reliable, and can be hard to defend or test. In this talk, we take a close look at how to warrant a leap from past experiments to novel conditions based on minimal assumptions about the factorization of the distribution of the manipulated system, communicated in the well-understood language of factor graph models. A postulated interventional factor model (IFM) may not always be informative, but it conveniently abstracts away a need for explicitly modeling unmeasured confounding and feedback mechanisms, leading to directly testable claims. Given an IFM and datasets from a collection of experimental regimes, we derive conditions for identifiability of the expected outcomes of new regimes never observed in these training data. We implement our framework using several efficient algorithms, and apply them on a range of semi-synthetic experiments.
 
 ---
