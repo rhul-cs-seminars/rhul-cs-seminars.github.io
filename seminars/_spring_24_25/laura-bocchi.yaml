@@ -1,0 +1,18 @@
+---
+topic: Software Engineering
+type: Technical
+title: >
+    Asynchronous Session Subtyping by Trace Relaxation
+speaker: Laura Bocchi
+institution: University of Kent
+webpage:  https://www.kent.ac.uk/school-of-computing/people/3119/bocchi-laura
+date: 2025-03-19 13:00
+venue: BEDFORD-0-07
+link: 
+recording: 
+bio: >
+    
+abstract: >
+    Session types are a formalism for modelling structured communications in concurrent systems and can be seamlessly implemented into programming languages. Session subtyping answers the question of whether a program in a concurrent system can be safely substituted for another, when their communication behaviours are described by session types. Asynchronous session subtyping is undecidable in general, hence the interest in devising sound (though incomplete) subtyping algorithms. State-of-the-art methods rely on a data structure known as input trees. I will present an alternative approach that replaces input trees with sets of traces, enabling the application of abstract interpretation techniques to this problem. This trace-based approach introduces a novel way to relax (enlarge) trace sets while maintaining observable subtyping properties. Crucially, these relaxations can be finitely represented, even when the corresponding input trees are arbitrarily large. This method can be instantiated using regular expressions, enabling us to mechanically prove subtyping for communication patterns previously beyond reach.
+
+---
