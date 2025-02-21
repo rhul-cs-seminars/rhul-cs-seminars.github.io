@@ -1,18 +1,20 @@
 ---
-topic: 
+topic: Machine Learning
 type: Technical
 title: >
-  TBD
+  Bridging the gap between Graph Neural Networks and Datalog
 speaker: David Tena Cucala
 institution: Royal Holloway, University of London
-webpage:  
+webpage:  https://davidtena.net
 date: 2025-03-05 13:00
 venue: BEDFORD-0-07
 link: 
 recording: 
 bio: >
-  TBD
+  David Tena-Cucala is a Lecturer in Computer Science at Royal Holloway, University of London. He has a BSc in Mathematics and Physics, and an MPhil In Philosophy, specialising in Philosophy of Physics and science. He graduated with a D.Phil (PhD) in Computer Science from University of Oxford, where he wrote a thesis on automated reasoning algorithms for expressive Description Logics. His current research interests lie in the intersection of Knowledge Representation and Machine Learning interpretability.
+
 abstract: >
-  TBD
+  Graph Neural Networks (GNNs) are a family of Machine Learning (ML) models that can be applied to graph-shaped data. They have been highly successful in data analytics applications such as drug discovery, product recommendation, and fraud detection, among many others. GNNs, however, lack some of the features enjoyed by classic Knowledge Representation (KR) methods for data analytics, such as interpretability, verifiability, or explainability. In this talk, I will show how we can bridge the gap between GNN and KR methods. In particular, I will show how to extract KR theories from certain classes of GNNs with theoretical guarantees, so that both the KR theory and the GNN are provably equivalent. I will then show applications of this approach to GNN interpretability, verification, and explainability.
+
 
 ---

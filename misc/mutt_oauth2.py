@@ -21,6 +21,7 @@
 #   02110-1301, USA.
 '''Mutt OAuth2 token management'''
 
+import os
 import sys
 import json
 import argparse
@@ -44,7 +45,7 @@ import subprocess
 # encryption and decryption pipes you prefer. They should read from standard
 # input and write to standard output. The example values here invoke GPG,
 # although won't work until an appropriate identity appears in the first line.
-ENCRYPTION_PIPE = ['gpg', '--encrypt', '--recipient', 'matteo.sammartino@rhul.ac.uk']
+ENCRYPTION_PIPE = ['gpg', '--encrypt', '--recipient', 'anand.subramoney@rhul.ac.uk']
 DECRYPTION_PIPE = ['gpg', '--decrypt']
 
 registrations = {
@@ -74,8 +75,8 @@ registrations = {
         'scope': ('offline_access https://outlook.office.com/IMAP.AccessAsUser.All '
                   'https://outlook.office.com/POP.AccessAsUser.All '
                   'https://outlook.office.com/SMTP.Send'),
-        'client_id': '08162f7c-0fd2-4200-a84a-f25a4db0b584',
-        'client_secret': 'TxRBilcHdC6WGBee]fs?QR:SJ8nI[g82',
+        'client_id': os.environ['CLIENT_ID'],
+        'client_secret': os.environ['CLIENT_SECRET'],
     },
 }
 
