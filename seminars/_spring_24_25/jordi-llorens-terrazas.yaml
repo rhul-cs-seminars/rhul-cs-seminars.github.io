@@ -1,0 +1,18 @@
+---
+topic: Machine Learning
+type: Technical
+title: >
+  Monitoring Joint Tail Risks: An Application to Growth and Inflation
+speaker: Jordi Llorens-Terrazas
+institution: University of Surrey
+webpage:  https://www.surrey.ac.uk/people/jordi-llorens-terrazas
+date: 2025-03-26 13:00
+venue: BEDFORD-0-07
+link: 
+recording: 
+bio: >
+  I am Lecturer in Econometrics at the University of Surrey's School of Economics. I hold a Ph.D in Economics from Universitat Pompeu Fabra and an MSc in Data Science from the Barcelona School of Economics. My main areas of interest are time series forecasting, financial econometrics, machine learning, empirical finance and macroeconomics.
+abstract: >
+  This paper develops the concept of Growth and Inflation at Risk frontier (GIaR). This is a bivariate generalisation of the concepts of Growth-at-Risk (GaR) and Inflation-at-Risk (IaR). We propose a novel approach to identify and estimate GIaR and provide uniformly valid upper and lower confidence bands. We first apply our procedure to predict the conditional probability of stagflation. Second, we compute worst-case scenarios for a policy maker who is concerned about the joint tail risk of low growth and high inflation. Our empirical findings show that a tightening of financial conditions increases joint tail risks to both growth and inflation.
+
+---
