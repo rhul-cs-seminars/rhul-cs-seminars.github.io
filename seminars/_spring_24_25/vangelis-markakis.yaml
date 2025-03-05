@@ -1,8 +1,8 @@
 ---
-topic: 
+topic: Algorithms
 type: Technical
 title: >
-  TBD
+  Reward schemes and incentives in Proof of Stake blockchain protocols
 speaker: Vangelis Markakis
 institution: Athens University of Economics and Business
 webpage:  
@@ -11,8 +11,10 @@ venue: BEDFORD-0-07
 link: 
 recording: 
 bio: >
-  TBD
+  Vangelis Markakis is a Professor in the Department of Informatics at the Athens University of Economics and Business. He obtained his PhD in Computer Science at the Georgia Institute of Technology (Georgia Tech, 2005), and he has also held appointments as a postdoctoral researcher at the University of Toronto (2005-2006), and at CWI, Amsterdam (2007-2008), and as a visiting scholar at Stanford University (2014). Since 2022, he has also been a collaborating member of the Input Output Global (IOG) research group on game-theoretic aspects of blockchain protocols. His research interests lie at the intersection of game theory and theoretical computer science, with an emphasis on optimization, mechanism design, fair division, and voting theory. 
 abstract: >
-  TBD
+  This talk focuses on game-theoretic  aspects that arise in the design of reward schemes in blockchain protocols. 
+  The first part concerns a model for pool formation in Proof of Stake protocols. In such systems, stakeholders can form pools as a means of obtaining regular rewards from participation in ledger maintenance and block production, with the power of each pool being dependent on its collective stake. The question of interest here is the design of reward schemes that suitably split earned profits among pool members. With this in mind, we initiate a study of the well known Shapley value scheme into the context of blockchains. We provide comparisons between the Shapley mechanism and the more standard proportional scheme, in terms of attained decentralization (i.e., number of pools formed at equilibrium),  and in terms of susceptibility to Sybil attacks, i.e., the strategic splitting of a players' stake with the intention of participating in multiple pools for increased profit.
+  The second part of the talk is motivated by a different application scenario and investigates the impact of reward schemes on blockchain governance. We introduce a model of elections where there is a ground truth (i.e., a ``correct" outcome), and where stakeholders can only choose to delegate their voting power to a set of delegation representatives (DReps). As a way to motivate the representatives to exert effort and discover the ground truth, a reward scheme can be used based on the total delegated stake attracted by each DRep. We analyze different schemes in this context with respect to their equilibrium properties, given an available monetary budget. Our findings provide insights into the design of effective reward mechanisms and optimal committee structures (i.e., how many DReps are enough) in such systems with the goal of maximizing the probability for selecting the correct outcome.
 
 ---
