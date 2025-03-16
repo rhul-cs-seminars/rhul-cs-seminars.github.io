@@ -8,7 +8,7 @@ institution: University of Kent
 webpage:  https://www.kent.ac.uk/school-of-computing/people/3119/bocchi-laura
 date: 2025-03-19 13:00
 venue: BEDFORD-0-07
-link: 
+link: https://teams.microsoft.com/l/meetup-join/19%3ameeting_YzRkODRmNDctN2RkYy00NTUyLTlkNjctYzIyZmM2ZGRmOWI3%40thread.v2/0?context=%7b%22Tid%22%3a%222efd699a-1922-4e69-b601-108008d28a2e%22%2c%22Oid%22%3a%229c6a898b-86f6-4344-8f36-27129ffe3748%22%7d
 recording: 
 bio: >
     Laura is a Reader in Computing and the Head of the Programming Languages and Systems (PLAS) group at the University of Kent. She is interested in theories and tools to develop safe distributed systems and, in particular,  static and dynamic verification of message-passing concurrency using session types. Her most recent research focuses on time-sensitive systems and reliable systems. She is PI at Kent of EPSRC project 'Session Types for Reliable Distributed Systems (STARDUST)'. 
