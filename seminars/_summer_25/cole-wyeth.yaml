@@ -1,0 +1,21 @@
+---
+topic: Machine Learning
+type: Technical
+title: >
+  Agency and Reflection in Algorithmic Probability
+speaker: Cole Wyeth
+institution: University of Waterloo
+webpage:  
+date: 2025-05-21 11:00
+venue: MOORE-0-16
+link: https://teams.microsoft.com/l/meetup-join/19%3ameeting_MGI3N2E0ZTQtNjQyOS00NTFiLWIwMmQtOGM1NTYyZDQyNzgw%40thread.v2/0?context=%7b%22Tid%22%3a%222efd699a-1922-4e69-b601-108008d28a2e%22%2c%22Oid%22%3a%229c6a898b-86f6-4344-8f36-27129ffe3748%22%7d
+recording: 
+bio: >
+  I am a PhD student at the University of Waterloo supervised by Professor Ming Li and advised by Professor Marcus Hutter. My research is on algorithmic probability (Kolmogorov complexity, Solomonoff induction), particularly as it applies to sequential decision theory. More generally, I am interested in applying ideas from theoretical computer science to understanding (artificial) intelligence, with a long-term goal of gaining traction on the mathematical foundations of superintelligent agents and the alignment problem. Previously, I earned an M.S. in mathematics at the University of Minnesota, and at various times worked on robotics and computer vision. 
+
+abstract: >
+  It is a longstanding challenge in artificial intelligence (and for that matter, philosophy) to build agents that understand themselves as part of a larger and computationally more powerful environment. Algorithmic probability provides tools to define versatile learners and agents that represent their knowledge in the form of programs, but such agents cannot be represented as programs and therefore cannot meaningfully reflect. There have been many attempts to remedy this problem, the most elegant relying on “quining” (Kleene’s second recursion theorem). Another approach is imprecise probability, which arises surprisingly naturally from certain expected utilities of these agents.  
+  I will explain why this problem is important, tie together existing and novel approaches, and explain why all of them fall short. 
+
+
+---
