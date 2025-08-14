@@ -1,0 +1,19 @@
+---
+topic: Machine Learning
+type: Technical
+title: >
+  Simulation-Based Calibration of Confidence Sets for Statistical Models
+speaker: Rafael Izbicki
+institution: Federal University of São Carlos, Brazil
+webpage:  
+date: 2025-09-01 11:00
+venue: 
+link: 
+recording: 
+bio: >
+  Rafael Izbicki is a faculty member in the Department of Statistics at the Federal University of São Carlos, Brazil, and has been a CNPq research fellow since 2017. He earned his BSc (2009) and MSc (2010) in from the University of São Paulo and his PhD (2014) from Carnegie Mellon University. Rafael leads the Statistical Machine Learning Lab, with over 80 peer-reviewed publications and is the author of the book Machine Learning Beyond Point Predictions: Uncertainty Quantification. His research covers fundamental aspects of statistics and machine learning, with applications in biology, medicine, epidemiology, and cosmology.
+
+abstract: >
+  Building confidence sets that reach their nominal level is especially hard in complex models and when the observed sample size is small, as in many likelihood-free inference tasks. We introduce a simulation-based calibration scheme that constructs local confidence sets using only samples drawn from the data-generating model. Adapting insights from conformal prediction to parameter inference, the method forms data-adaptive partitions that deliver finite-sample local coverage and achieve conditional coverage as the number of simulations grows. It handles nuisance parameters with no substantial computational cost and computes uncertainty estimates that flag when more simulations are needed. Experiments on models with and without tractable likelihoods show that the resulting sets are better calibrated than existing alternatives. The procedure provides a practical tool for reliable inference in modern statistical applications.
+
+---
