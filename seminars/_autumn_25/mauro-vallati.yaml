@@ -1,0 +1,20 @@
+---
+topic: Machine Learning
+type: Technical
+title: >
+  A Decade of Automated Planning for Urban Traffic Control
+speaker: Mauro Vallati
+institution: University of Huddersfield
+webpage:  https://www.mvallati.net
+date: 2025-10-01 11:00
+venue: TBA
+link: 
+recording: 
+bio: >
+  Mauro Vallati is a UKRI Future Leaders Fellow and ACM Distinguished Speaker on Artificial Intelligence (AI) for the UK. He is a Professor of AI at the University of Huddersfield, where he leads the Autonomous Intelligent Systems research center and the AI for Urban Traffic Control research team. Mauro has extensive experience in real-world applications of AI methods and techniques, spanning from healthcare to train dispatching. In 2014, he started working on AI applied to the field of urban traffic control, a line of research that led to numerous high-impact academic publications, patents filed in the United Kingdom, China, and the United States, as well as the deployment of the resulting techniques in urban areas of the United Kingdom.
+
+abstract: >
+  The current increase in urbanisation, coupled with the socio-economic motivation for increasing mobility, is pushing the transport infrastructure well beyond its capacity. Traditional urban traffic control techniques are struggling to cope with the dramatic rise of traffic, and have limited ability to react. In response, more intelligent control mechanisms are required to better monitor and exploit the available infrastructure. Despite the growing number of studies leveraging on machine learning techniques to perform traffic control tasks, the good old model-based AI is gaining traction, thanks to its ability to provide approaches that can smoothly deal with unusual and unexpected conditions.
+  In this talk we will focus on the application of AI planning to urban traffic control. First, we will look into how urban traffic control is currently performed and what are the main challenges faced. Then, we will present how AI planning techniques have been used to improve common practices, and to provide useful tools for traffic engineers, domain experts, and practitioners.
+
+---
