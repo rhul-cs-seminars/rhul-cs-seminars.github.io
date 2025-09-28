@@ -2,7 +2,7 @@
 topic: Machine Learning
 type: Technical
 title: >
-
+  Deep learning methods for 3D reconstruction and evaluation
 speaker: Shalini Maiti
 institution: Meta AI & UCL
 webpage:  https://www.linkedin.com/in/shalini-maiti-a76a2b86/
@@ -11,7 +11,8 @@ venue: MCCREA 1-16
 link: 
 recording: 
 bio: >
+  Shalini Maiti studied Information and Communication Technology at DA-IICT in India, did her masters at TU Graz, specializing in Computer Vision and Machine Learning. She is currently in the final year of her PhD at University College London and Meta AI. Shalini works with 3D vision, particularly with reconstruction, evaluation and generation of 3D objects. When she's is not huddled over academic deadlines, she spends time with good stories, shared experiences, pub quizzes and travel.
 
 abstract: >
-
+  Reconstructing and evaluating 3D content poses challenges at both the modeling and assessment stages. For non-rigid objects, 3D recovery from 2D keypoints is ill-posed due to occlusions and entanglement between viewpoint and shape variation. Classical low-rank models impose global constraints but suffer from alignment difficulties and limited expressivity. By instead constraining localized subsets of shape within high-capacity unsupervised models, it is possible to preserve flexibility while ensuring geometric consistency, yielding over 70% error reduction on S-Up3D. In parallel, the rapid growth of text-to-3D generation has exposed limitations of current evaluation metrics, which either require ground-truth supervision (e.g., PSNR) or only measure prompt fidelity (e.g., CLIP). Gen3DEval addresses this by leveraging vision-language models fine-tuned for 3D object quality assessment, enabling reference-free evaluation across text fidelity, appearance, and surface geometry. Together, these approaches advance both the generative and evaluative foundations of 3D vision, highlighting pathways toward more accurate, scalable, and human-aligned 3D understanding.
 ---
