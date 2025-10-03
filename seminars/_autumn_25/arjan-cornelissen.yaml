@@ -1,17 +1,19 @@
 ---
-topic: 
+topic: Quantum Computing
 type: Technical
 title: >
-
+  Quantum algorithms through graph composition
 speaker: Arjan Cornelissen
-institution: Simons Institute & UC Berkeley
+institution: Simons Institute, UC Berkeley
 webpage:  https://arriopolis.github.io/
 date: 2025-10-08 11:00
 venue: MCCREA 1-16
-link: 
+link: https://teams.microsoft.com/l/meetup-join/19%3ameeting_NGRhZjQ1OGMtNzA4Mi00MWMxLWE1ODEtNzJjNmEwZjBkZTg1%40thread.v2/0?context=%7b%22Tid%22%3a%222efd699a-1922-4e69-b601-108008d28a2e%22%2c%22Oid%22%3a%229c6a898b-86f6-4344-8f36-27129ffe3748%22%7d
 recording: 
 bio: >
+  Arjan Cornelissen is a postdoc at Simon’s Institute, UC Berkeley. He is an expert in quantum algorithms, developing new algorithmic techniques and frameworks, and is also interested in quantum query, time and space lower bounds. Arjan received his PhD at the University of Amsterdam under the supervision of Maris Ozols, before moving on to a postdoc position at Universite de Paris Cite.
 
 abstract: >
+  In this talk, I will give a glimpse of an ongoing project on the development of quantum algorithms through composition of graphs. At a high level, the idea is to represent a quantum query algorithm as a graph. The graph composition framework, that this work introduces, then provides a black-box way to turn such graphs into quantum algorithms. It turns out that this framework is able to unify many existing frameworks that generate quantum query algorithms, and it provides tangible ways to make these implementations time-efficient too. If time permits, we will also take a look at several examples for which this framework can be used.
 
 ---
