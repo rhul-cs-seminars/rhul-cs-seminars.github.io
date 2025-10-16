@@ -1,8 +1,8 @@
 ---
-topic: 
+topic: Algorithms
 type: Technical
 title: >
-
+  Mechanism Design Augmented with Incomplete Prediction
 speaker: Alkmini Sgouritsa
 institution: Athens University of Economics and Business
 webpage:  https://sites.google.com/site/alkminisgouritsa/alkmini-sgouritsa
@@ -11,7 +11,7 @@ venue: MCCREA 1-16
 link: 
 recording: 
 bio: >
-
+  Alkmini Sgouritsa is an Assistant Professor in the Department of Informatics at the Athens University of Economics and Business. She is also a lead researcher in Archimedes Unit of the Athena Research Center. She has previously held a position as an Assistant Professor in the Computer Science Department at the University of Liverpool, (2019-2022), a visiting researcher in the Geo Algorithm group of Google Research, CA, USA, (2021-2022), and a Postdoctoral Researcher at the Max Planck Institute for Informatics, Saarbrücken, Germany (2018-2019). She completed her PhD (2013-2017) in the Computer Science Department at the University of Liverpool, and her PhD thesis on Algorithms for Game-Theoretic Environment was the highly-commended runner up for the British Computer Society (BCS) Distinguished Dissertation award (2018). Her research interests lie in the fields of Algorithmic Game Theory, Mechanism Design, Learning-Augmanted Algorithms and Fair Division.
 abstract: >
-
+  Our work revisits the design of mechanisms via the learning-augmented framework. In this model, the algorithm is enhanced with imperfect (machine-learned) information usually referred to as prediction. The goal is to use the prediction to design mechanisms with low approximation guarantees whenever the prediction is accurate (consistency), but at the same time to provide worst-case guarantees whenever the prediction is arbitrarily off (robustness). In algorithm design with predictions, various types of prediction models are considered, each providing different levels of information. Input predictions are generally more informative than output predictions/recommendations, as the latter can typically be derived from the former, but not vice versa. In this talk, we first discuss the consistency-robustness tradeoff for truthful mechanisms for the scheduling problem on unrelated machines under those two extreme types of predictions. We then explore a hybrid advice model combining a recommendation about the output allocation with a partial prediction of the input types. Investigating intermediate forms of prediction offers insight into the amount of information required to achieve performance guarantees comparable to those obtained with full input predictions. This is a joint work with Giorgos Christodoulou and Ioannis Vlachos.
 ---
