@@ -2,7 +2,7 @@
 topic: Machine Learning
 type: Technical
 title: >
-
+  Hardware-Algorithm Co-Design for ML Inference
 speaker: Alessandro Pierro
 institution: Intel & TU Munich
 webpage: https://alessandropierro.eu/ 
@@ -11,7 +11,9 @@ venue: MCCREA 1-16
 link: 
 recording: 
 bio: >
+  Alessandro Pierro is a researcher at Intel Labs and a doctoral candidate in computer science at the Ludwig-Maximilians-Universität München. His research focuses on accelerating machine learning and mathematical optimization workloads through hardware-algorithm co-design, using advances in parallel computing architectures. He is currently working on energy-efficient inference for linear recurrent networks to enable sequence modeling at the edge.
 
 abstract: >
-
+  The growing demand for AI accelerators presents an opportunity to validate the technological readiness of emerging hardware architectures.
+  This requires understanding how alternative computational paradigms perform on real applications and identifying which algorithmic trends align with their inherent strengths. This seminar will provide empirical results on current ML workloads running on the Intel Loihi 2 accelerator, a sparse, event-driven, spatially-mapped system. Results on State Space Models and recurrent LLMs demonstrate where Loihi 2 can excel, as well as which architecture-level enhancements could improve its performance on these workloads. We will also cover the implications for hardware architectures arising from recent trends in large-scale ML workloads, including sparse mixtures-of-experts, recurrent reasoning, speculative decoding, and hierarchical networks.
 ---

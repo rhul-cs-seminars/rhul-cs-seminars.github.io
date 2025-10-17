@@ -1,17 +1,18 @@
 ---
-topic: 
+topic: Formal Methods
 type: Technical
 title: >
-
+  Recent Progress in Semantics and Proof theory of MTL
 speaker: Andrew Lewis-Smith
 institution: Middlesex University
 webpage:  https://www.mdx.ac.uk/about-us/our-people/staff-directory/dr-andrew-lewis-smith/
 date: 2025-10-22 11:00
 venue: MCCREA 1-16
-link: 
+link: https://teams.microsoft.com/l/meetup-join/19%3ameeting_NGRhZjQ1OGMtNzA4Mi00MWMxLWE1ODEtNzJjNmEwZjBkZTg1%40thread.v2/0?context=%7b%22Tid%22%3a%222efd699a-1922-4e69-b601-108008d28a2e%22%2c%22Oid%22%3a%229c6a898b-86f6-4344-8f36-27129ffe3748%22%7d 
 recording: 
 bio: >
-
+  Dr Andrew Lewis-Smith obtained his doctorate in Computer Science (2021) from the Theoretical Computer Science Research Group at Queen Mary University of London, and is presently a Lecturer of Computer Science at Middlesex University. He is a member of the London Logic Forum
 abstract: >
+  Esteva and Godo's Monoidal T-Norm Logic (MTL) is a well-studied fuzzy and Substructural logic. It is primarily studied algebraically. In this seminar, we present recent results both semantic and proof-theoretic. We situate MTL amongst other Substructural and modal logics via Kripke semantics (using algebraic representation results of Zuluaga and Castiglioni), identifying the frames of MTL and axiomatic extensions thereof (Godel logic, BL, and so on). We also seek to grasp the computational interpretation of MTL, which has surprisingly received very little attention, and for which normalisation, cut-elimination, bidirectional translations exist using standard tools (contrasting with the situation for other mainstream fuzzy logics). The two problems are interrelated. Our work prefaces further work on the term-calculi for MTL, labelled calculi, and weaker subsystems of MTL (e.g. Intuitionistic linear logic with Pre-linearity)
 
 ---
