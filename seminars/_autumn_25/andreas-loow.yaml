@@ -1,8 +1,8 @@
 ---
-topic: 
+topic: Formal Methods
 type: Technical
 title: >
-
+  The Simulation Semantics of Synthesisable Verilog
 speaker: Andreas Lööw
 institution: Royal Holloway, University of London
 webpage:  https://www.cs.rhul.ac.uk/home/upac096/
@@ -11,7 +11,7 @@ venue: MCCREA 1-16
 link: 
 recording: 
 bio: >
-
+  Andreas just started as a lecturer at RHUL. He has a broad interest in formal methods, e.g.: interactive theorem proving, separation logic, incorrectness reasoning, and symbolic execution.
 abstract: >
-
+  I will talk about my recent work on ​exploring and formalising the semantics of Verilog, a widely used hardware-description language. I believe this work has the potential to be useful/interesting for multiple groups of people, ranging from beginner Verilog users to experienced users, which all need Verilog to be a well-defined and understandable language. Relevant groups include obviously relevant groups like hardware designers and developers of Verilog tools (such as synthesis tools and formal-verification tools) as well as perhaps less obviously relevant groups such as researchers from software verification that want to apply their experience to hardware problems but don’t know where to start because of the lack of a clear semantic foundation to ground their work on.
 ---
