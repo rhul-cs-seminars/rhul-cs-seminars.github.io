@@ -1,6 +1,6 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//RHUL CS Departmental Seminars//http://localhost:4000//EN
+PRODID:-//RHUL CS Seminars//http://localhost:4000//EN
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
 END:VCALENDAR

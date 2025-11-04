@@ -6,7 +6,7 @@ layout: main
 
 <br/>
 
-<div class="card"></div>
+<div class="card">
     <div class="card-header">
         <!-- <div class="container-md"> -->
         {% include title.html %}
@@ -14,10 +14,9 @@ layout: main
     </div>
     <div class="card-body">
         {% include schedule.html tag=page.tag  %}
-</div>
-<div class="card-footer text-muted">
-    <p> Link to ICS calendar:
-        <a href="{{site.url}}/cal/rhul-cs-sem-calendar.ics">{{site.url}}/cal/rhul-cs-sem-calendar.ics</a>
-    </p>
-  </div>
+    </div>
+    <div class="card-footer text-muted flex-row">
+        <a href="{{site.url}}/cal/rhul-cs-sem-calendar.ics">Link to ICS calendar</a>
+        <a class="mx-2" href="https://github.com/rhul-cs-cake-talks/rhul-cs-cake-talks.github.io">Website source code</a>
+    </div>
 </div>

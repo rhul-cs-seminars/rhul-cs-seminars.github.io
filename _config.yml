@@ -1,4 +1,4 @@
-title: RHUL CS Departmental Seminars
+title: RHUL CS Seminars
 domain: rhul-cs-seminars.github.io       # if you want to force HTTPS, specify the domain without the http at the start, e.g. example.com
 url: https://rhul-cs-seminars.github.io  # the base hostname and protocol for your site, e.g. http://example.com
 email: anand.subramoney@rhul.ac.uk 
@@ -10,6 +10,8 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - misc
+
+collections_dir: seminars
 
 collections:
   autumn_25:
@@ -31,10 +33,6 @@ collections:
     order: 6
     name: "Autumn 2023"
 
-collections_dir: seminars
-
-# plugins:
-#   - jekyll-autoprefixer
 
 # autoprefixer:
 #   browsers:
