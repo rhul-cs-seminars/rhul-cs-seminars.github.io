@@ -1,4 +1,3 @@
-
 <table class="table table-sm">
     <thead class="table-dark">
         <tr>
@@ -12,51 +11,64 @@
     {% assign talk_id = 0 %}
     {% assign collections = site.collections | where_exp: "collection", "collection.label != 'posts'"  | sort: "order" %}
     {% for collection in collections %}
-        <tr  class="table-primary">
-            <td colspan="4">
-                {{ collection.name }}
-            </td>
-        </tr>
+        {% assign found = false %}
+        {% for seminar in collection.docs %}
+            {% if seminar.tags contains include.tag %}
+                {% assign found = true %}
+            {% endif %}
+        {% endfor %}
+        {% if found or include.tag == nil %}
+            <tr  class="table-primary">
+                <td colspan="4">
+                    {{ collection.name }}
+                </td>
+            </tr>
+        {% endif %}
         {% assign sorted_seminars = collection.docs | sort: "date" | reverse %}
         {% for seminar in sorted_seminars %}
-            {% assign heading_id = "heading" | append: talk_id %}
-            {% assign collapse_id = "collapse" | append: talk_id %}
-            <tr scope="row">
-                <td>{{ seminar.date | date: "%d %b %Y, %H:%M" }}</td>
-                <td><a href="{{ seminar.webpage }}" target="_blank">{{ seminar.speaker }}</a> 
-                &nbsp;({{ seminar.institution}})</td>
-                <td>
-                    {% if seminar.title == "" or seminar.title == nil %}
-                        TBA
-                    {% else %} 
-                        {{ seminar.title }}           
-                    {% endif %}          
-                    <span class="badge bg-danger">{{ seminar.topic }}</span>
-                    <span class="badge bg-primary">{{ seminar.type }}</span>
-                </td>
-                <td>
-                    {% if seminar.venue or seminar.abstract %}
-                        <a href data-bs-toggle="collapse" data-bs-target="#{{collapse_id}}" aria-expanded="false" aria-controls="{{collapse_id}}">
-                            Show Details
-                        </a>
-                    {% else %}
-                        No Details Yet
-                    {% endif %}
-                </td>
-            </tr>
-            <tr class="collapsed-row bg-light bg-gradient">
-                <td colspan="4">
-                    <div class="collapse" id="{{collapse_id}}" style="">
-                        {% capture talk_venue %}{{seminar.venue}}{% endcapture %}
-                        {% capture talk_link %}{{seminar.link}}{% endcapture %}
-                        {% capture talk_bio %}{{seminar.bio}}{% endcapture %}
-                        {% capture talk_abstract %}{{seminar.abstract}}{% endcapture %}
-                        {% capture talk_recording %}{{seminar.recording}}{% endcapture %}
-                        {% include talk_details.html venue=talk_venue link=talk_link bio=talk_bio abstract=talk_abstract recording=talk_recording%}
-                    </div>
-                </td>
-            </tr>
-            {% assign talk_id = talk_id | plus: 1 %}
+            {% if include.tag == nil or seminar.tags contains include.tag %}
+                {% assign heading_id = "heading" | append: talk_id %}
+                {% assign collapse_id = "collapse" | append: talk_id %}
+                <tr scope="row">
+                    <td>{{ seminar.date | date: "%d %b %Y, %H:%M" }}</td>
+                    <td><a href="{{ seminar.webpage }}" target="_blank">{{ seminar.speaker }}</a> 
+                    &nbsp;({{ seminar.institution}})</td>
+                    <td>
+                        {% if seminar.title == "" or seminar.title == nil %}
+                            TBA
+                        {% else %} 
+                            {{ seminar.title }}           
+                        {% endif %}          
+                        <span class="badge bg-danger">{{ seminar.topic }}</span>
+                        <span class="badge bg-primary">{{ seminar.type }}</span>
+                        {% for tag in seminar.tags %}
+                            <span class="badge bg-info">{{ tag }}</span>
+                        {% endfor %}
+                    </td>
+                    <td>
+                        {% if seminar.venue or seminar.abstract %}
+                            <a href data-bs-toggle="collapse" data-bs-target="#{{collapse_id}}" aria-expanded="false" aria-controls="{{collapse_id}}">
+                                Show Details
+                            </a>
+                        {% else %}
+                            No Details Yet
+                        {% endif %}
+                    </td>
+                </tr>
+                <tr class="collapsed-row bg-light bg-gradient">
+                    <td colspan="4">
+                        <div class="collapse" id="{{collapse_id}}" style="">
+                            {% capture talk_venue %}{{seminar.venue}}{% endcapture %}
+                            {% capture talk_link %}{{seminar.link}}{% endcapture %}
+                            {% capture talk_bio %}{{seminar.bio}}{% endcapture %}
+                            {% capture talk_abstract %}{{seminar.abstract}}{% endcapture %}
+                            {% capture talk_recording %}{{seminar.recording}}{% endcapture %}
+                            {% include talk_details.html venue=talk_venue link=talk_link bio=talk_bio abstract=talk_abstract recording=talk_recording%}
+                        </div>
+                    </td>
+                </tr>
+                {% assign talk_id = talk_id | plus: 1 %}
+            {% endif %}
         {% endfor %}
     {% endfor %}
 

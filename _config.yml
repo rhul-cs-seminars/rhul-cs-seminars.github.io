@@ -3,7 +3,7 @@ domain: rhul-cs-seminars.github.io       # if you want to force HTTPS, specify t
 url: https://rhul-cs-seminars.github.io  # the base hostname and protocol for your site, e.g. http://example.com
 email: anand.subramoney@rhul.ac.uk 
 
-term: Autumn 24/25
+term: Autumn 25/26
 
 exclude: 
   - README.md
