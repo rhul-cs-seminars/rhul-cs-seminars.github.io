@@ -1,8 +1,8 @@
 ---
-topic: 
+topic: Algorithms
 type: Technical
 title: >
-
+  Proportionality Axioms in Multiwinner Elections: Theory and Practice
 speaker: Tuva Bardal
 institution: University of Warwick
 webpage:  https://warwick.ac.uk/fac/sci/dcs/people/tbardal/
@@ -11,7 +11,7 @@ venue: TBA
 link: 
 recording: 
 bio: >
-
+  Tuva Bardal is a PhD student in the Department of Computer Science at the University of Warwick, working on topics in computational social choice under the supervision of Dr. Markus Brill. Her research focus is on multiwinner elections.
 abstract: >
-
+  In a multiwinner election, an electorate provides a collection of votes over a set of m candidates, and our goal is to choose a subset of k candidates in a way that is somehow fair to the electorate. A core principle of fairness in multiwinner elections is the principle of proportional representation, or proportionality: an election method is said to be proportional if it produces an outcome that proportionally represents the preferences of the electorate. In restricted settings such as party-list elections, where candidates are divided into parties that voters vote for, proportional representation is simply the principle that ‘vote share equals seat share’. However, in settings where preferences are less constrained and neither candidates nor voters are partitioned into categories, the question of what constitutes a satisfactory definition of proportional representation is more elusive. This issue has received a great deal of attention in the field of computational social choice, yielding a large number of ‘axioms of proportionality’ that seek to formally define what it means for an election method to be proportional. In this talk, I will discuss a number of proportionality axioms that have been proposed, notions of fair representation that different axioms encode, and conceptual and technical limitations of various axioms. Furthermore, I will present results from observations on ballot data from Scottish local elections, suggesting that certain axioms may have little effect in practice, and discuss recent attempts at defining quantitative measures of proportionality based on established axioms.
 ---
