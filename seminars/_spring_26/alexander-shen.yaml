@@ -1,0 +1,23 @@
+---
+topic: Machine Learning
+type: Department
+title: >
+  Algorithmic statistics and Kolmogorov complexity
+speaker: Alexander Shen
+institution: CNRS
+webpage:  https://www.lirmm.fr/~ashen/
+date: 2026-01-28 14:00
+venue: MCCREA 1-16 
+link: 
+recording: 
+bio: >
+  Alexander Shen is a CNRS researcher (LIRMM, Montpellier, France) and was one of the organizers of a seminar on complexity launched by Kolmogorov himself.
+  Expositions: (1)  Kolmogorov complexity and algorithmic randomness, AMS monographs, https://www.lirmm.fr/~ashen/kolmbook-eng-scan.pdf (with V.A.Uspensky and N.Vereshchagin) and
+  (2) Algorithmic statistics revisited (with N.Vereshchagin) https://arxiv.org/abs/1504.04950
+
+abstract: >
+  Philosophically speaking, the task of a mathematical statistics is to provide a plausible statistical model (explanation) for experimental data. Experimental data is a finite object, say, some binary string $x$, and a statistical model is a probability distribution $P$ on binary strings. Given $x$ we look for some $P$ such that we "can believe" that $x$ is an outcome sampled randomly according to $P$. For example, we toss a coin $N=1000000$ times and then suggest the uniform distribution on $N$-bit strings as a "plausible" explanation for $x$.
+  But how can we mathematically define what do we mean by "plausible" explanation? While the uniform distribution can be a plausible explanation of a coin tossing sequence $x$, we hardly would agree that it is a plausible explanation for a sequence $y$ of $N$ zeros: nobody would believe that we get $1000000$ tails and no heads tossing a fair coin. Still both $x$ and $y$ have the same probability $2^{-N}$ according to uniform distribution. So what is the difference between $x$ and $y$?
+  Kolmogorov introduced his notion of complexity (as the minimal length of a program generating $x$) as an explanation of this intuitive difference: $x$ has no short description (is incompressible) while $y$ has one (is compressible). Using this notion, one can then define what is a plausible explanation. Though not being directly useful in practice, this approach (algorithmic statistics) still makes some formal link between statistical practice and mathematical theory.
+  We will discuss the notion of complexity and its applications to algorithmic statistic and discuss the main result (saying that several definitions --- depth, two-part descriptions, $(\alpha,\beta)$-stochasticity) give essentially the same characteristic (some curve) for finite objects. We will try to explain the related notion in an intuitive way, so no algorithmic information theory background is assumed.
+---

@@ -1,0 +1,19 @@
+---
+topic: Machine Learning
+type: Technical
+title: >
+  From Common to Mixed Frequencies: Estimating Continuous-Time DSGE Models
+speaker: Luca Neri
+institution: UCLouvain
+webpage:  https://www.lneri.com/
+date: 2026-02-18 14:00
+venue: MCCREA 1-16 
+link: 
+recording: 
+bio: >
+  Luca Neri is a research fellow at UCLouvain. He obtained his PhD in Economics from Aarhus University and works on econometrics and time-series econometrics, with a focus on structural macroeconomic models, identification, and continuous-time methods.
+
+abstract: >
+  We develop a likelihood-based framework for estimating linearized continuous-time DSGE models from discrete-time data observed at mixed frequencies. An exact discrete-time state-space representation accommodates arbitrary combinations of stock and flow measurements without expanding the state vector. We characterize how impulse responses estimated from mixed-frequency data relate to their continuous-time model counterparts. Monte Carlo experiments using a New Keynesian model show that mixed-frequency estimation reduces bias and RMSE relative to common-frequency estimation, with gains arising from frequency mixing rather than from uniformly increasing the sampling rate.
+
+---
