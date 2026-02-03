@@ -1,17 +1,18 @@
 ---
-topic: 
+topic: Algorithms
 type: Technical
-title: >
-
+title: > 
+  Fairness under Equal-Sized Bundles: Impossibility Results and Approximation Guarantees
 speaker: Alviona Mantso
 institution: Athens University of Economics and Business
-webpage:  
+webpage:  https://www.linkedin.com/in/alviona-mancho
 date: 2026-03-18 14:00
 venue: MCCREA 1-16 
 link: 
 recording: 
 bio: >
-
+  Alviona Mancho is a Ph.D. candidate in the Department of Informatics at the Athens University of Economics and Business (AUEB), where she is advised by Vangelis Markakis. Her research focus is on Theoretical Computer Science, and more specifically Algorithmic Game Theory. She has recently been studying fair division, specifically investigating the fair allocation of indivisible resources under structural constraints. Alviona holds her undergraduate degree from the Department of Informatics at AUEB and her MSc in Computer Science from the same department, having specialized in Theoretical Computer Science. 
 abstract: >
-
+  We study the fair allocation of indivisible goods under cardinality constraints, where each agent must receive a bundle of fixed size. This models practical scenarios, such as assigning shifts or forming equally sized teams. Recently, variants of envy-freeness up to one/any item (EF1, EFX) were introduced for this setting, based on flips or exchanges of items. Namely, one can define envy-freeness up to one/any flip (EFF1, EFFX), meaning that an agent i does not envy another agent j after performing one or any one-item flip between their bundles that improves the value of i.
+  We explore algorithmic aspects of this notion, and our contribution is twofold: we present both algorithmic and impossibility results, highlighting a stark contrast between the classic EFX concept and its flip-based analogue. First, we explore standard techniques used in the literature and show that they fail to guarantee EFFX approximations. On the positive side, we show that we can achieve a constant factor approximation guarantee when agents share a common ranking over item values, based on the well-known envy cycle elimination technique. This idea also leads to a generalized algorithm with approximation guarantees when agents agree on the top n items and their valuation functions are bounded. Finally, we show that an algorithm that maximizes the Nash welfare guarantees a 1/2-EFF1 allocation, and that this bound is tight. This is joint work with Vangelis Markakis and Nicos Protopapas (SAGT 2025).
 ---
