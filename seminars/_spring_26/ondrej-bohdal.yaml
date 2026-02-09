@@ -2,7 +2,7 @@
 topic: Machine Learning
 type: Technical
 title: >
-
+  Personalizing GenAI: Fine-tuning Models to Perform Specific Tasks
 speaker: Ondrej Bohdal
 institution: Samsung Research
 webpage:  https://ondrejbohdal.github.io/
@@ -11,7 +11,9 @@ venue: MCCREA 1-16
 link: 
 recording: 
 bio: >
+  Ondrej is a senior machine learning researcher at Samsung R&D Institute UK, where he focuses on personalization of generative AI models. Before joining Samsung, he was a postdoctoral researcher at the University of Edinburgh, working on topics such as multimodal large language models, image generation, fairness, uncertainty calibration and out-of-distribution generalization. He did his PhD on Meta-Learning Algorithms and Applications at the University of Edinburgh.
 
 abstract: >
+  How can we adapt massive AI models to individual user needs efficiently? As foundation models grow to increasingly large sizes, traditional fine-tuning becomes a prohibitive bottleneck for personalized deployment. We will address the shift toward parameter-efficient fine-tuning during the talk, with particular focus on Low-Rank Adaptation (LoRA). We will explain how LoRA works and how it can achieve strong results across text and image generation tasks with minimal computational overhead. We will then move beyond single-task personalization, explaining how we can enable models to handle multiple specialized tasks efficiently via merging. We will also cover the state of the art in the field, discussing multiple recent papers from our lab.
 
 ---
