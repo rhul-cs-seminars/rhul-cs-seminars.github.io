@@ -1,8 +1,8 @@
 ---
-topic: 
+topic: Machine Learning
 type: Technical
 title: >
-
+  E-variables and tests of randomness for distribution classes.
 speaker: Georgii Potapov
 institution: RHUL
 webpage:  https://pure.royalholloway.ac.uk/en/persons/georgii-potapov/
@@ -11,7 +11,10 @@ venue: MCCREA 1-16
 link: 
 recording: 
 bio: >
-
+  Georgii is a PhD student at Royal Holloway who works with Yuri Kalnishkan and Vladimir Vovk. His research interests range across Learning theory, Information theory, Computability, and Computational Complexity.
 abstract: >
-
+  E-variables are a relatively new approach for testing statistical hypotheses that has been experiencing major development during the last several years.
+  We introduce the method of e-variable-approximability that can be used to develop a general approximation technique, allowing to construct e-variables for popular distribution classes important for applications.
+  E-variables were originally based on a concept of Levin’s (average-bounded) randomness tests from Algorithmic Information Theory. 
+  It turns out that construction of e-variables via e-variable approximability can be used to provide an explicit construction for a randomness test with respect to a class of distributions.
 ---
