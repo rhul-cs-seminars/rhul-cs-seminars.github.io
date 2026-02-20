@@ -1,8 +1,8 @@
 ---
-topic: 
+topic: Algorithms
 type: Technical
 title: >
-
+  Envy-Free Cake-Cutting for Four Agents
 speaker: Alexandros Hollender
 institution: University of Oxford 
 webpage:  https://www.asc.ox.ac.uk/person/dr-alexandros-hollender-0
@@ -11,7 +11,8 @@ venue: MCCREA 1-16
 link: 
 recording: 
 bio: >
-
+  Alexandros is a postdoctoral research fellow at All Souls college, University of Oxford. His research interests lie mainly in algorithms and computational complexity, including applications in various fields such as game theory, fair division and optimization. In particular, his work focuses on total search problems and the various complexity classes that arise in their study (PPAD, PLS, CLS, etc). He completed his PhD at the University of Oxford under the supervision of Paul Goldberg.
 abstract: >
-
+  In the envy-free cake-cutting problem we are given a resource, usually called a cake and represented as the [0,1] interval, and a set of n agents with heterogeneous preferences over pieces of the cake. The goal is to divide the cake among the n agents such that no agent is envious of any other agent. Even under a very general preferences model, this fundamental fair division problem is known to always admit an exact solution where each agent obtains a connected piece of the cake; we study the complexity of finding an approximate solution, i.e., a connected ε-envy-free allocation.
+  For monotone valuations of cake pieces, Deng, Qi, and Saberi (2012) gave an efficient algorithm for three agents, and it was conjectured by Brânzei and Nisan (2022) that the problem for four agents is hard. We present an efficient algorithm for the case of four agents. We also prove that as soon as the valuations are allowed to be non-monotone, the problem becomes hard, even in the communication model.
 ---
