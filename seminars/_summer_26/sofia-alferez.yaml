@@ -1,0 +1,17 @@
+---
+topic: Algorithms
+type: Technical
+title: >
+  When is local search both effective and efficient?
+speaker: Sofia Vazquez Alferez
+institution: Utrecht University
+webpage:  https://sofvaz.github.io/
+date: 2026-06-29 14:00
+venue: TOLANSKY-118 
+link: 
+recording: 
+bio: >
+  Sofia Vazquez Alferez is a PhD candidate at the Utrecht University working on the parameterized complexity of Local Search under the supervision of Artem Kaznatcheev. The aim of her research is to define a formal computational model for local search and find parameters of combinatorial optimization problems that capture the efficiency of local search algorithms.
+abstract: >
+  Local search is often used for combinatorial optimization problems. Sometimes it works well and sometimes it doesn’t. Why? In this talk I will introduce the concept of conditionally-smooth fitness landscapes to answer this question. Such landscapes have a single peak so local search algorithms are guaranteed to eventually find it. However, we show that a large class of local search algorithms can do so in polynomial time. This is no trivial result: conditionally-smooth landscapes saturate the (super-polynomial) lower-bound for theoretically good or popular local search algorithms such as Random Facet and  Greedy Local Search. Time permitting, I’ll also explain how conditionally-smooth landscapes generalize the natural class of ‘oriented’ valued constraint satisfaction problems giving us a structural parameter able to capture a family of instances where many local search algorithms are both effective (i.e. find the global optimum) and efficient (i.e. do so quickly). 
+---

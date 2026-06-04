@@ -1,0 +1,18 @@
+---
+topic: 
+type: Technical
+title: >
+  Interval Certifications for Multilayered Perceptrons via Lattice Traversal
+speaker: Konstantinos Varsos
+institution: Athens University of Economics and Business
+webpage:  https://scholar.google.com/citations?user=NmzSi5kAAAAJ
+date: 2026-06-17 10:00
+venue: TOLANSKY-118 
+link: 
+recording: 
+bio: >
+  Konstantinos Varsos is a postdoctoral researcher at the STEcon Lab (Services, Technologies, and Economics), Athens University of Economics and Business, Department of Informatics, and at ICS (Institute of Computer Science) at FORTH (Foundation for Research and Technology — Hellas). He studied in the Department of Mathematics and Applied Mathematics at the University of Crete. He then completed his master’s degree in the Department of Mathematics and Applied Mathematics at the University of Crete, studying Numerical Analysis and Computational Mathematics. During that time, he also worked at the Institute of Applied and Computational Mathematics at the Foundation for Research and Technology–Hellas (FORTH). Subsequently, he joined the Institute of Computer Science at FORTH, where he conducted his Ph.D. research in Game Theory and Learning. During his postdoctoral research, he was at CWI in Amsterdam as an Allen-Bensoussan ERCIM fellow, at the Alan Turing Institute and the University of Liverpool, and at the Institute of Computer Science at FORTH. Further, he is an Adjunct Lecturer at the University of Crete.
+abstract: >
+  Robustness certification aims to compute safe regions around a given input, guaranteeing that a neural network (NN) remains stable under perturbations. These regions are commonly represented as axis-aligned hyper-rectangles, and existing approaches seek to maximize their volume. However, fundamental complexity results rule out efficient computation of volume-optimal certifications, and additionally, inapproximability results prevent guaranteeing a fixed approximation ratio. We introduce a new certification measure, the apothem, defined as the minimum slack between the input and the certification boundary. Maximizing the apothem directly maximizes the minimum perturbation tolerance guaranteed by the certification. We show that apothem-maximizing certifications can be computed in pseudo-polynomially many oracle calls to an NN verifier. We further introduce dual certifications, which provide upper bounds on any monotone certification measure. As a case study, we apply the framework to neural network verification based onconvex relaxations, analyzing the divergence between exact and relaxed network representations. We derive analytical upper and lower bounds on the $\ell_\infty$ distance between original and fully relaxed outputs, yielding tight dual certificates of relaxation-induced error.
+
+---

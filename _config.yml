@@ -14,26 +14,29 @@ exclude:
 collections_dir: seminars
 
 collections:
-  spring_26:
+  summer_26:
     order: 1
+    name: "Summer 2026"
+  spring_26:
+    order: 2
     name: "Spring 2026"
   autumn_25:
-    order: 2
+    order: 3
     name: "Autumn 2025"
   summer_25:
-    order: 3
+    order: 4
     name: "Summer 2025"
   spring_25:
-    order: 4
+    order: 5
     name: "Spring 2025"
   autumn_24:
-    order: 5
+    order: 6
     name: "Autumn 2024"
   spring_24:
-    order: 6
+    order: 7
     name: "Spring 2024"
   autumn_23:
-    order: 7
+    order: 8
     name: "Autumn 2023"
 
 
