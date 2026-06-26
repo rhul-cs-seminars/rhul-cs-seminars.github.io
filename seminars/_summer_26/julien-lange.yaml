@@ -1,0 +1,18 @@
+---
+topic: 
+type: Technical
+title: >
+  Automated Verification of Concurrent Go Programs
+speaker: Julien Lange
+institution: RHUL
+webpage:  
+date: 2026-06-24 11:00
+venue: TOLANSKY-118 
+link: https://teams.microsoft.com/meet/36420425771875?p=wSn6e59FYm9DFcD02k
+recording: 
+bio: >
+  
+abstract: >
+  Verifying the absence of partial deadlocks in Go programs is challenging when channel operations and capacities are determined at runtime. I describe two approaches that address this challenge. The first performs bounded model checking of concurrent behaviors, handling statically unknown parameters while scaling to large programs. The second translates Go fragments to a core language encodable in off-the-shelf solvers, automatically verifying deadlock freedom or inferring preconditions when safety is conditional. I will report on our experience applying this approach on a real-world codebase containing hundreds of challenging program fragments.
+
+---
