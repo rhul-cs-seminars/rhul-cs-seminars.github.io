@@ -1,0 +1,24 @@
+---
+topic: Machine Learning
+type: Technical
+tags:
+  - + Centre for AI & Skills
+title: >
+  Human-Machine Teaming and Personal AI Agents
+speaker: Dr Fumihiro Maruyama
+institution: National Institute of Advanced Industrial Science and Technology (AIST), Japan
+webpage:  
+date: 2026-09-08 11:00
+venue: QUEENS-264 
+link: https://teams.microsoft.com/meet/36420425771875?p=wSn6e59FYm9DFcD02k
+recording: 
+bio: >
+  Dr. Maruyama is an invited senior researcher at Intelligent Platform Research Institute, National Institute of Advanced Industrial Science and Technology (AIST), Japan. He is also a special adviser on AI education at Chuo Computer & Communication College Group (CCG). He served as convenor of ISO/IEC JTC 1/SC 42/WG 4 (AI use cases and applications) until the end of 2024. Before joining AIST and CCG, he worked for Fujitsu Laboratories Ltd., Kawasaki, Japan, where he was engaged in research and development of CAD, AI, and CRM solutions and served for four years as managing director of Fujitsu Laboratories of Europe based in London, UK.
+
+  Dr. Maruyama received his B.S. degree in Mathematical Engineering and Dr. of Engineering degree in Information Engineering from the University of Tokyo. He was awarded the IPSJ (Information Processing Society of Japan) 20th Anniversary Best Paper Award and the Prof. Motooka Commemorative Award. He is a life member of IEEE, IPSJ, the Institute of Electronics, Information and Communication Engineers of Japan, the Society for Serviceology, and the Japanese Society for Artificial Intelligence, where he served as executive vice president and auditor for four years and received its Distinguished Service Award.
+abstract: >
+  This talk provides an overview of human-machine teaming (HMT) and personal AI agents. HMT expands the traditional view of AI systems by emphasizing the integration of human interaction and machine intelligence. Its framework, which is being standardized at ISO/IEC JTC 1/SC 42 (AI)/WG 4 (Use cases and applications), identifies five basic relationship types between humans and AI applications: human supervisor, human mentor, peer, machine mentor, and machine supervisor. Each type defines task division, information flows, and requirements to ensure safety, reliability, and effective collaboration. Requirements are specified for organizations, AI providers, human experts, and the human-machine team, ensuring that both human judgment and AI capabilities are respected and balanced.
+  
+  The talk presents personal AI agents as a special case of HMT, where the agent is dedicated to a single individual, combining the roles of expert and end user. These agents perform a wide range of tasks, from information retrieval and document drafting to personal coaching and communication. Unlike standard LLMs, personal AI agents continuously monitor user context, can proactively initiate interactions, and adapt to individual habits and preferences. The talk underscores the necessity of standardization for personal AI agents, focusing on user customization, situation awareness, privacy, and security.
+
+---
