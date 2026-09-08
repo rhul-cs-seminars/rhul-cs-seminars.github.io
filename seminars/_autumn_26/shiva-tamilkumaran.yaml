@@ -1,0 +1,18 @@
+---
+topic: Software Engineering
+type: Technical
+title: >
+  An End-to-end Theory for Compositional Symbolic Execution: From Expressive Specifications to SMT
+speaker: Shiva Tamil Kumaran
+institution: Imperial College London
+webpage:  https://www.shiva-tk.xyz/
+date: 2026-10-14 13:00
+venue: TBD
+link: 
+recording: 
+bio: >
+  Shiva is a PhD student at Imperial College London, supervised by Philippa Gardner and Andreas Lööw. His primary research interest is compositional symbolic execution (CSE), a technique for verification and bug-finding. His work seeks to bridge the gap between theoretical justification and practical implementation of CSE tools.
+abstract: >
+  Compositional symbolic execution (CSE) combines symbolic execution with reusable, separation-logic-based function summaries, and underlies tools like VeriFast, Viper, and Gillian. A CSE theory is a mechanised, formally verified model of such an engine, aimed at proving correctness. Existing theories, however, have two critical gaps: their frontends lack the expressive features needed for real verification tasks, and their backends never formally connect to the SMT solvers that real tools rely on for first-order reasoning.
+  We make substantial progress on both. Our Rocq mechanisation extends the theory of Lööw et al. with an expressive frontend supporting ADTs, logical functions, and inductive lemmas. On the backend, we contribute the first line-by-line mechanisation of SMT-LIB 2.7 and a proven-correct encoding of CSE queries into it — carefully handling the mismatches between CSE's partial, dynamically-typed semantics and SMT-LIB's total, many-sorted logic. 
+---
