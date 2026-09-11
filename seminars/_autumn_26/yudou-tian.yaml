@@ -1,17 +1,18 @@
 ---
-topic: 
+topic: Machine Learning
 type: Technical
 title: >
-
+  Latent Optimisation in the Forward Pass: Gradient Descent in Recurrent, State-Space, and Spiking Networks
 speaker: Yudou Tian 
 institution: Bielefeld University & Ruhr University Bochum
-webpage:  
+webpage:  https://www.linkedin.com/in/yudou-tian-84a137148/
 date: 2026-09-30 13:00
 venue: TBD
 link: 
 recording: 
 bio: >
-  
+  Yudou Tian is a doctoral student at the Center for Cognitive Interaction Technology (CITEC), Bielefeld University, co-supervised by David Kappel and by Anand Subramoney (RHUL). Her research studies how recurrent architectures can implement learning inside their forward dynamics, spanning linear recurrent networks and state-space models that learn in context, and spiking networks that learn without synaptic plasticity.
+ 
 abstract: >
-  
+  Learning in neural networks is usually identified with weight changes. This talk examines the alternative: networks that adapt to a new task without a single weight update, their learning unfolding entirely in the trajectory of the recurrent state. The same idea underlies a leading account of in-context learning in transformers, where the forward pass emulates gradient descent on a latent task model; here it is treated as a design target rather than a post-hoc explanation, and realised in two very different substrates. Three properties are sufficient: the task parameters live in the recurrent state rather than in the weights, the readout is multiplicative in the input, and the state is driven by the local outer product of prediction error and input. The first construction, GRIL, is a diagonal linear recurrent network with a sliding-window cross-product update. It implements one step of minibatch gradient descent per layer using O(f^2) parameters where indirect gated-recurrent realisations of linear attention require O(f^4); trained models recover the predicted parameters and dynamics, and the same bias transfers to Long Range Arena and WikiText103. The second, GD-SCN, carries the update into a spiking network whose firing rule is derived rather than assumed: a neuron spikes only when doing so moves the represented weights closer to the gradient-descent target. With a fixed random decoder and no training of any kind, it recovers regression matrices, solving a new task in each episode purely in its state. In both cases no weights change during task acquisition: the optimisation is visible only in the trajectory of the network state.
 ---
