@@ -2,16 +2,17 @@
 topic: Software Engineering
 type: Technical
 title: >
-
+  Software engineering and formal methods for computer-aided design systems
 speaker: Edward Wang
-institution: Imperial College London & MIT
+institution: Imperial College London
 webpage:  
 date: 2026-10-07 13:00
 venue: ARTS Annexe
 link: 
 recording: 
 bio: >
-
+  Edward Wang is a PhD candidate at Imperial College London. He obtained his B.S. and M.S. degrees in EECS from the University of California, Berkeley, in 2017 and 2018, respectively.
+  His research interests include formal methods (FM), artificial intelligence (AI), electronic design automation (EDA), computer-aided design (CAD), and software engineering. His passion is to enable the design of larger and more complex systems that are both correct and secure by developing innovative tools. His work has been featured at conferences including DAC, ISQED, EMSOFT, and NFM.
 abstract: >
-
+  Modern electronics design has surpassed the capabilities of hand layout, emphasizing the importance of EDA (electronic design automation) systems for place-and-route, a key step in physical design of integrated circuits. Unfortunately, current EDA approaches, built upon foundations of hand-optimized algorithmic implementations and statistical/heuristic approaches, entail high maintenance burdens, harbour potential security issues, and produce incomplete results requiring extensive rework from designers. I will discuss two tools that I have developed to address these challenges.
 ---
