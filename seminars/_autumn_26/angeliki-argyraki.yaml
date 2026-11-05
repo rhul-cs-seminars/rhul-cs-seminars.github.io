@@ -2,16 +2,16 @@
 topic: 
 type: Technical
 title: >
-
+  Formalising mathematics and new developments in AI for math: A formaliser's apology
 speaker: Angeliki Koutsoukou Argyraki
 institution: RHUL
-webpage:  
+webpage:  https://pure.royalholloway.ac.uk/en/persons/angeliki-koutsoukou-argyraki/
 date: 2026-11-11 13:00
-venue: ARTS Annexe
+venue: Queens 240
 link: 
 recording: 
 bio: >
-
+  Angeliki is a Lecturer in Computer Science at Royal Holloway, University of London and a Visiting Researcher at the Department of Computer Science and Technology, University of Cambridge since 2023. She works on questions at the intersection of computer science, mathematics, and logic. Her research interests involve formalising mathematical proofs with interactive theorem provers (proof assistants), the mechanisation of mathematics, automatic proof discovery.  In 2017-2023 she was a (Senior) Research Associate at the Department of Computer Science and Technology, University of Cambridge. In 2016-2017 she was a Scientific Associate at the Department of Mathematics at TU Darmstadt, Germany (Logic Group), where in 2016 she completed her PhD in pure mathematics, in particular in applied proof theory (proof mining). She also holds a MSc in Mathematics from the Department of Mathematical Sciences, University of Copenhagen, Denmark, a Master de Sciences et Technologies (Mention Physique et Applications) from Université Paris VI (Pierre et Marie Curie), France, and a Diploma from the School of Applied Mathematical and Physical Sciences, National Technical University of Athens, Greece.
 abstract: >
-
+  This talk will involve a general introduction to the area of formalisation of mathematics using proof assistants (interactive theorem provers) and a critical discussion on how formalisation ties in with very recent developments in AI for mathematics, which are widely considered to have brought about rapid, disruptive change in mathematical practice. The talk will thus be a mostly non-technical discussion, but as an example of a piece of formalised mathematics I will present a formalisation of a 2021 proof of a special case of the union-closed conjecture by Aaronson, Ellis and Leader in Isabelle/HOL (joint with Lawrence C. Paulson).
 ---
