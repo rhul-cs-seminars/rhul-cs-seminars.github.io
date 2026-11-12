@@ -2,16 +2,18 @@
 topic: 
 type: Technical
 title: >
-
+  Hylomorphisms: From the Algebra of Programming to Certified Code
 speaker: David Castro Perez
 institution: RHUL
 webpage:  
 date: 2026-11-18 13:00
-venue: ARTS Annexe
+venue: Queens 240
 link: 
 recording: 
 bio: >
+  David Castro-Perez is a new Lecturer in Computer Science at Royal Holloway, University of London. He was previously a Lecturer at the University of Kent and a Research Associate in the Mobility Reading Group at Imperial College London, and he received his PhD from the University of St Andrews. His research interests include interactive theorem proving, programming language design and implementation, concurrency and distribution, and parallelism. He develops language-based techniques for building safe and predictable systems, from behavioural types for concurrent and distributed programs to certified tools and languages in proof assistants.
 
 abstract: >
+  Can we calculate a program the way we solve an equation? Since the 1980s, *program calculation* (the "Squiggol" school of Bird and Meertens) has answered yes: efficient programs can be derived one algebraic law at a time. This talk explores *hylomorphisms*, a single algebraic pattern behind divide-and-conquer computations, how their laws have traditionally been used for program calculation, and the benefits of their mechanisation in proof assistants. I will present our Rocq library of hylomorphisms, which is fully axiom-free and checks every calculation step. Building it required carefully considering the trade-offs between definitions that are easy to reason about and definitions that extract to clean code. I will finish with ongoing work towards low-level program calculation, based on laws that change how data is represented and how work is scheduled.
 
 ---
